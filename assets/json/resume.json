@@ -1,9 +1,9 @@
-{
+﻿{
   "basics": {
     "name": "Albert Einstein",
     "label": "Scientist",
     "image": "",
-    "email": "einstein@example.com",
+    "email": "i.tsioulis@mc-class.gr",
     "phone": "(912) 123-4567",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {

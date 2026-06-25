@@ -1,7 +1,7 @@
-cv:
+﻿cv:
   name: Ioannis Tsioulis
   label: PhD Candidate in Deep Learning · Accredited Lecturer
-  email: ioannis.tsioulis@mc-class.gr
+  email: i.tsioulis@mc-class.gr
   location: Athens, Greece
   image: ""
   summary: >
@@ -23,7 +23,6 @@ cv:
         studyType: PhD (in progress)
         end_date: present
         highlights:
-          - "Supervisor: Prof. Nikolaos Stergioulas."
           - "Deep-learning surrogate models for gravitational-wave astrophysics."
       - institution: University of Piraeus
         location: Piraeus, Greece
