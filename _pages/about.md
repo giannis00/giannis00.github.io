@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Athens, Greece</p>
-    <p>ioannis.tsioulis@mc-class.gr</p>
+    <p>i.tsioulis@mc-class.gr</p>
 
 selected_papers: true
 social: true
