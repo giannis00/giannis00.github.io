@@ -7,30 +7,22 @@ nav: true
 nav_order: 5
 ---
 
-I supervise undergraduate and postgraduate dissertations, often using them as a research force-multiplier on topics close to my own work (applied AI, computer vision, NLP, blockchain analysis). Below is a selection of the strongest projects.
+I supervise undergraduate and postgraduate dissertations at Mediterranean College, often as a research force-multiplier on topics close to my own work — applied AI, NLP, computer vision, and blockchain analysis.
 
-## MSc dissertations (7CS997)
+## MSc dissertations
 
-<div class="thesis-list">
+**Vasileios Bakalis** — *LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison* (2026)
+MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets and benchmarked LLM baselines; the dataset is archived on [Zenodo](https://doi.org/10.5281/zenodo.19682589) and underpins the [NiceMove](https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove) VS Code extension.
+[PDF](/assets/theses/bakalis-2026-msc-move-llm.pdf)
 
-**Student Name** — *Thesis Title* (2025)
-A one-line summary of the project and its result.
-[PDF](/assets/theses/2025-msc-example.pdf) · [Code](https://github.com/giannis00)
+---
 
-**Student Name** — *Thesis Title* (2025)
-A one-line summary of the project and its result.
-[PDF](/assets/theses/2025-msc-example-2.pdf)
+## BSc dissertations
 
-</div>
+**Vasileios Eirinaios Chanoutsos** — *Security Comparison of Smart Contracts in Sui vs. Other Blockchains* (2026)
+BSc (Hons) Computer Science, Mediterranean College / University of Derby. Systematic security analysis comparing Move/Sui smart contracts against Solidity/EVM equivalents across multiple vulnerability classes.
+[PDF](/assets/theses/chanoutsos-2026-bsc-sui-security.pdf)
 
-## Undergraduate dissertations (6CC995 / 6CM995)
-
-<div class="thesis-list">
-
-**Student Name** — *Thesis Title* (2024)
-A one-line summary of the project and its result.
-[PDF](/assets/theses/2024-bsc-example.pdf)
-
-</div>
-
-> To add a thesis: put the PDF in `assets/theses/`, then copy one of the blocks above and update the name, title, year, summary, and link. Please get each student's consent before publishing their full thesis — linking just an abstract is a good alternative if they prefer.
+**Dimitrios Zerkidis** — *AI-Based Code Style Enforcement with Code Llama* (2026)
+BSc (Hons) Computer Science, Mediterranean College / University of Derby. Fine-tuned Code Llama for automated code style enforcement, evaluating adherence to style guides across Python codebases.
+[PDF](/assets/theses/zerkidis-2026-bsc-code-llama.pdf)
