@@ -1,0 +1,71 @@
+cv:
+  name: Ioannis Tsioulis
+  label: PhD Candidate in Deep Learning · Accredited Lecturer
+  email: ioannis.tsioulis@mc-class.gr
+  location: Athens, Greece
+  image: ""
+  summary: >
+    PhD candidate in Deep Learning at AUTH working on deep-learning surrogate models for
+    gravitational-wave astrophysics, and Accredited Lecturer at Mediterranean College
+    (School of Computing) teaching AI and Data Science. Research spans applied deep learning,
+    medical AI, deep learning in physics & astronomy, and AI & blockchain.
+
+  social_networks:
+    - network: GitHub
+      username: giannis00
+
+  sections:
+    Education:
+      - institution: Aristotle University of Thessaloniki (AUTH)
+        location: Thessaloniki, Greece
+        url: https://www.auth.gr/en/
+        area: Deep Learning / Gravitational-Wave Astrophysics
+        studyType: PhD (in progress)
+        end_date: present
+        highlights:
+          - "Supervisor: Prof. Nikolaos Stergioulas."
+          - "Deep-learning surrogate models for gravitational-wave astrophysics."
+      - institution: University of Piraeus
+        location: Piraeus, Greece
+        area: Cybersecurity and Data Science
+        studyType: MSc
+        highlights:
+          - "Awarded a merit-based scholarship."
+      - institution: National and Kapodistrian University of Athens (NKUA)
+        location: Athens, Greece
+        area: Mathematics
+        studyType: BSc
+
+    Experience:
+      - company: Mediterranean College, Athens (School of Computing)
+        position: Accredited Lecturer
+        location: Athens, Greece
+        start_date: 2024-10
+        end_date: present
+        highlights:
+          - "Teaching UG and PG modules in Artificial Intelligence and Data Science."
+          - "Supervising BSc and MSc dissertations on applied AI."
+          - "Leading the SuiHub Athens — Mediterranean College applied-research collaboration (AI & blockchain)."
+
+    Research Interests:
+      - label: Areas
+        details: Applied Deep Learning; Medical AI & Computer-Aided Diagnosis; Deep Learning in Physics & Astronomy; AI & Blockchain Applications
+
+    Peer-Reviewed Publications:
+      - name: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. (2026). Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support. HAICAI 2026, Springer LNNS. (accepted, in press)"
+
+    Conference Presentations & Talks:
+      - name: "Tsioulis, I., Hryb, A., Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens."
+      - name: "Tsioulis, I. (2024). Machine Learning & Neural Networks for Astronomy. Research poster, 20th Conference on Recent Developments in Gravity (HSRGC), Eugenides Foundation, Athens."
+      - name: "Tsioulis, I. (2025). AI in Pharmacovigilance: the Intersection of AI and Drug Safety. Guest lecture, School of Medicine, NKUA."
+
+    Awards:
+      - name: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
+
+    Skills:
+      - label: Languages
+        details: Python, SQL, C, Move
+      - label: ML / DL
+        details: PyTorch, deep learning, CNNs, transformers, continual learning
+      - label: Domains
+        details: Gravitational-wave astrophysics, medical AI, NLP, blockchain analysis
