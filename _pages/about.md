@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD candidate in Deep Learning at the **Aristotle University of Thessaloniki (AUTH)**, supervised by Prof. Nikolaos Stergioulas. My background bridges mathematics and computing: a **BSc in Mathematics** from the National and Kapodistrian University of Athens (NKUA) and an **MSc in Cybersecurity and Data Science** from the University of Piraeus (merit-based scholarship).
+I am a PhD candidate in Deep Learning at the **Aristotle University of Thessaloniki (AUTH)**. My background bridges mathematics and computing: a **BSc in Mathematics** from the National and Kapodistrian University of Athens (NKUA) and an **MSc in Cybersecurity and Data Science** from the University of Piraeus (merit-based scholarship).
 
 Since October 2024 I am an **Accredited Lecturer at Mediterranean College (Athens), School of Computing**, teaching undergraduate and postgraduate modules in Artificial Intelligence and Data Science, and supervising BSc and MSc dissertations.
 
