@@ -2,9 +2,10 @@
 layout: page
 title: NiceMove — AI-Powered Move Smart-Contract Linter
 description: A VS Code extension that detects issues in Sui Move smart contracts locally, with frontier-model fixes on demand.
-img: assets/img/1.jpg
+img: assets/img/nicemove_icon.png
 importance: 3
 category: work
+website: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove
 ---
 
 **NiceMove** is a VS Code extension for Move developers that flags smart-contract issues — missing authorisation checks, unsafe transfers, dead code, and logic errors — inline as you write. Detection runs on a small, specialised model locally: fast, private, and free to run. When a fix is needed, the issue is handed to Claude Code for a concrete correction.
