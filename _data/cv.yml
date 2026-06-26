@@ -39,7 +39,7 @@ cv:
         studyType: BSc
 
     Experience:
-      - company: Mediterranean College, Athens — School of Computing
+      - company: Mediterranean College, Athens, School of Computing
         position: Lecturer (accredited by the University of Derby, UK)
         location: Athens, Greece
         start_date: 2024-10
@@ -47,7 +47,7 @@ cv:
         highlights:
           - "Teaching University of Derby UG and PG modules in Artificial Intelligence and Data Science."
           - "Supervising BSc and MSc dissertations on applied AI."
-          - "Leading the SuiHub Athens — Mediterranean College applied-research collaboration (AI & blockchain)."
+          - "Leading the SuiHub Athens / Mediterranean College applied-research collaboration (AI & blockchain)."
 
     Research Interests:
       - label: Areas
