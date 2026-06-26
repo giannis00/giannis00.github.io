@@ -1,13 +1,14 @@
 cv:
   name: Ioannis Tsioulis
-  label: PhD Candidate in Deep Learning · Accredited Lecturer
+  label: PhD Candidate in Deep Learning · Lecturer (University of Derby, UK)
   email: i.tsioulis@mc-class.gr
   location: Athens, Greece
   image: ""
   summary: >
     PhD candidate in Deep Learning at AUTH working on deep-learning surrogate models for
-    gravitational-wave astrophysics, and Accredited Lecturer at Mediterranean College
-    (School of Computing) teaching AI and Data Science. Research spans applied deep learning,
+    gravitational-wave astrophysics, and Lecturer at Mediterranean College, Athens
+    (School of Computing), an accredited partner of the University of Derby (UK), teaching
+    University of Derby AI and Data Science modules. Research spans applied deep learning,
     medical AI, deep learning in physics & astronomy, and AI & blockchain.
 
   social_networks:
@@ -28,21 +29,23 @@ cv:
         location: Piraeus, Greece
         area: Cybersecurity and Data Science
         studyType: MSc
+        end_date: 2023
         highlights:
           - "Awarded a merit-based scholarship."
+          - "Thesis: Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (2023). <a href='https://dione.lib.unipi.gr/xmlui/handle/unipi/15239' target='_blank'>dione.lib.unipi.gr</a>"
       - institution: National and Kapodistrian University of Athens (NKUA)
         location: Athens, Greece
         area: Mathematics
         studyType: BSc
 
     Experience:
-      - company: Mediterranean College, Athens (School of Computing)
-        position: Accredited Lecturer
+      - company: Mediterranean College, Athens — School of Computing
+        position: Lecturer (accredited by the University of Derby, UK)
         location: Athens, Greece
         start_date: 2024-10
         end_date: present
         highlights:
-          - "Teaching UG and PG modules in Artificial Intelligence and Data Science."
+          - "Teaching University of Derby UG and PG modules in Artificial Intelligence and Data Science."
           - "Supervising BSc and MSc dissertations on applied AI."
           - "Leading the SuiHub Athens — Mediterranean College applied-research collaboration (AI & blockchain)."
 
