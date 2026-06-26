@@ -15,8 +15,8 @@ nav_order: 6
   <p>
     <a href="https://haicai2026.uniwa.gr/" target="_blank"><strong>International Conference on Human-AI Collaboration and Augmented Intelligence (HAICAI 2026)</strong></a><br>
     Athens, Greece, April 2026<br>
-    Presentation of the peer-reviewed paper: <em>Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support.</em><br>
-    Proceedings of HAICAI 2026, Springer LNNS. Accepted, in press.
+    Oral presentation: <em>Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support.</em><br>
+    The paper has been accepted and will appear in the Proceedings of HAICAI 2026, Springer LNNS (in press).
   </p>
 </div>
 
