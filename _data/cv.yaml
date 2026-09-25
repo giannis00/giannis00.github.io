@@ -25,11 +25,13 @@ cv:
         location: Thessaloniki, Greece
         url: https://www.auth.gr/en/
         area: Deep Learning
-        studyType: PhD (in progress)
+        degree: PhD
+        highlights:
+          - "In progress."
       - institution: University of Piraeus
         location: Piraeus, Greece
         area: Cybersecurity and Data Science
-        studyType: MSc
+        degree: MSc
         end_date: 2023
         highlights:
           - "Awarded a merit-based scholarship."
@@ -37,7 +39,7 @@ cv:
       - institution: National and Kapodistrian University of Athens (NKUA)
         location: Athens, Greece
         area: Mathematics
-        studyType: BSc
+        degree: BSc
 
     Experience:
       - company: Mediterranean College, Athens, School of Computing
