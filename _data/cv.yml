@@ -2,6 +2,7 @@ cv:
   name: Ioannis Tsioulis
   label: PhD Candidate in Deep Learning · Lecturer (University of Derby, UK)
   email: i.tsioulis@mc-class.gr
+  website: https://giannis00.github.io/
   location: Athens, Greece
   image: ""
   summary: >
@@ -53,20 +54,41 @@ cv:
       - label: Areas
         details: Applied Deep Learning; Medical AI & Computer-Aided Diagnosis; Deep Learning in Physics & Astronomy; AI & Blockchain Applications
 
-    Peer-Reviewed Publications:
-      - name: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. (2026). Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support. HAICAI 2026, Springer LNNS. (accepted, in press)"
+    Publications:
+      - title: "Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support"
+        publisher: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. — HAICAI 2026, Springer LNNS (accepted, in press)"
+        date: 2026
 
     Conference Presentations & Talks:
-      - name: "Tsioulis, I., Hryb, A., Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens."
-      - name: "Tsioulis, I. (2024). Machine Learning & Neural Networks for Astronomy. Research poster, 20th Conference on Recent Developments in Gravity (HSRGC), Eugenides Foundation, Athens."
-      - name: "Tsioulis, I. (2025). AI in Pharmacovigilance: the Intersection of AI and Drug Safety. Guest lecture, School of Medicine, NKUA."
+      - bullet: "Tsioulis, I., Hryb, A., Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens."
+      - bullet: "Tsioulis, I. (2024). Machine Learning & Neural Networks for Astronomy. Research poster, 20th Conference on Recent Developments in Gravity (HSRGC), Eugenides Foundation, Athens."
+      - bullet: "Tsioulis, I. (2025). AI in Pharmacovigilance: the Intersection of AI and Drug Safety. Guest lecture, School of Medicine, NKUA."
+
+    Datasets:
+      - bullet: "Tsioulis, I., Chaikalis, T., Anastasopoulos, K., Chanoutsos, V. E., Chrysomallis, N., Gubochkin, D. V., Margetis, A., Patrakis, V., Trousas, N., Tsipis, G., Zerkidis, D. (2026). Sui Move Issues: A Labeled Dataset for Smart Contract Error Classification (v1). Zenodo. <a href='https://doi.org/10.5281/zenodo.19682589' target='_blank'>doi.org/10.5281/zenodo.19682589</a>. Supervised by I. Tsioulis; produced with BSc/MSc students at Mediterranean College in collaboration with SuiHub Athens."
+
+    Projects:
+      - name: "NiceMove: AI-Powered Move Smart-Contract Linter"
+        url: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove
+        summary: "VS Code extension that flags Sui Move smart-contract issues locally with a small specialised model, then hands fixes to Claude Code on demand."
+        highlights:
+          - "Brought to final form by Vasilis Bakalis as part of his MSc thesis; ~99% accuracy on the classification task in preliminary evaluation, outperforming general-purpose LLMs used out-of-the-box."
+          - "Collaboration: SuiHub Athens / Mysten Labs."
+
+    Supervision:
+      - label: MSc — Vasileios Bakalis (2026)
+        details: "<em>LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.</em> MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove."
+      - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
+        details: "<em>Security Comparison of Smart Contracts in Sui vs. Other Blockchains.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+      - label: BSc — Dimitrios Zerkidis (2026)
+        details: "<em>AI-Based Code Style Enforcement with Code Llama.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby."
 
     Awards:
-      - name: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
+      - title: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
 
     Skills:
       - label: Languages
-        details: Python, SQL, C, Move
+        details: Python, SQL, C
       - label: ML / DL
         details: PyTorch, deep learning, CNNs, transformers, continual learning
       - label: Domains
