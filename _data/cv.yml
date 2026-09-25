@@ -1,13 +1,13 @@
 cv:
   name: Ioannis Tsioulis
-  label: PhD Candidate in Deep Learning · Lecturer (University of Derby, UK)
+  label: PhD Candidate in Deep Learning · Accredited Lecturer (University of Derby, UK)
   email: i.tsioulis@mc-class.gr
   website: https://giannis00.github.io/
   location: Athens, Greece
   image: ""
   summary: >
     PhD candidate in Deep Learning at AUTH working on deep-learning surrogate models for
-    gravitational-wave astrophysics, and Lecturer at Mediterranean College, Athens
+    gravitational-wave astrophysics, and Accredited Lecturer at Mediterranean College, Athens
     (School of Computing), an accredited partner of the University of Derby (UK), teaching
     University of Derby AI and Data Science modules. Research spans applied deep learning,
     medical AI, deep learning in physics & astronomy, and AI & blockchain.
@@ -41,7 +41,7 @@ cv:
 
     Experience:
       - company: Mediterranean College, Athens, School of Computing
-        position: Lecturer (accredited by the University of Derby, UK)
+        position: Accredited Lecturer (University of Derby, UK)
         location: Athens, Greece
         start_date: 2024-10
         end_date: present
