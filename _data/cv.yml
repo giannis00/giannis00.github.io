@@ -20,7 +20,7 @@ cv:
       - institution: Aristotle University of Thessaloniki (AUTH)
         location: Thessaloniki, Greece
         url: https://www.auth.gr/en/
-        area: Deep Learning / Gravitational-Wave Astrophysics
+        area: Deep Learning
         studyType: PhD (in progress)
         end_date: present
       - institution: University of Piraeus
@@ -73,12 +73,14 @@ cv:
           - "Collaboration: SuiHub Athens / Mysten Labs."
 
     Supervision:
+      - label: Selected from 20+ dissertations
+        details: "Full list at <a href='https://giannis00.github.io/supervision/' target='_blank'>giannis00.github.io/supervision</a>"
       - label: MSc — Vasileios Bakalis (2026)
-        details: "<em>LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.</em> MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove."
+        details: "<em>LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.</em> MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove. <a href='https://giannis00.github.io/assets/theses/bakalis-2026-msc-move-llm.pdf' target='_blank'>PDF</a>"
       - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
-        details: "<em>Security Comparison of Smart Contracts in Sui vs. Other Blockchains.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+        details: "<em>Security Comparison of Smart Contracts in Sui vs. Other Blockchains.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby. <a href='https://giannis00.github.io/assets/theses/chanoutsos-2026-bsc-sui-security.pdf' target='_blank'>PDF</a>"
       - label: BSc — Dimitrios Zerkidis (2026)
-        details: "<em>AI-Based Code Style Enforcement with Code Llama.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+        details: "<em>AI-Based Code Style Enforcement with Code Llama.</em> BSc (Hons) Computer Science, Mediterranean College / University of Derby. <a href='https://giannis00.github.io/assets/theses/zerkidis-2026-bsc-code-llama.pdf' target='_blank'>PDF</a>"
 
     Awards:
       - title: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
