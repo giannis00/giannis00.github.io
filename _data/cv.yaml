@@ -98,4 +98,4 @@ cv:
       - label: ML / DL
         details: PyTorch, deep learning, CNNs, transformers, continual learning
       - label: Domains
-        details: Applied AI
+        details: Applied Deep Learning
