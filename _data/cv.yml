@@ -89,4 +89,4 @@ cv:
       - label: ML / DL
         details: PyTorch, deep learning, CNNs, transformers, continual learning
       - label: Domains
-        details: Deep learning for gravitational-wave astrophysics, medical AI, NLP, blockchain analysis
+        details: Applied AI for gravitational-wave astrophysics, medical AI, NLP, blockchain analysis
