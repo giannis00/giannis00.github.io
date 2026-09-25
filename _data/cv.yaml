@@ -81,9 +81,7 @@ cv:
           - "Brought to final form by Vasilis Bakalis as part of his MSc thesis; ~99% accuracy on the classification task in preliminary evaluation, outperforming general-purpose LLMs used out-of-the-box."
           - "Collaboration: SuiHub Athens / Mysten Labs."
 
-    Supervision:
-      - label: Selected from 20+ dissertations
-        details: "Full list at [giannis00.github.io/supervision](https://giannis00.github.io/supervision/)"
+    Selected Supervision:
       - label: MSc — Vasileios Bakalis (2026)
         details: "*LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.* MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove. [PDF](https://giannis00.github.io/assets/theses/bakalis-2026-msc-move-llm.pdf)"
       - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
@@ -100,4 +98,4 @@ cv:
       - label: ML / DL
         details: PyTorch, deep learning, CNNs, transformers, continual learning
       - label: Domains
-        details: Gravitational-wave astrophysics, medical AI, NLP, blockchain analysis
+        details: Deep learning for gravitational-wave astrophysics, medical AI, NLP, blockchain analysis
