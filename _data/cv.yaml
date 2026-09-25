@@ -4,7 +4,7 @@ cv:
   email: i.tsioulis@mc-class.gr
   website: https://giannis00.github.io/
   location: Athens, Greece
-  image: ""
+  photo: ../assets/rendercv/profile_picture.jpg
   summary: >
     PhD candidate in Deep Learning at AUTH, and Accredited Lecturer at Mediterranean College,
     Athens (School of Computing), an accredited partner of the University of Derby (UK),
@@ -16,11 +16,15 @@ cv:
       username: giannis00
 
   sections:
+    Profile:
+      - "PhD Candidate in Deep Learning (AUTH) · Accredited Lecturer (University of Derby, UK)"
+      - "PhD candidate in Deep Learning at AUTH, and Accredited Lecturer at Mediterranean College, Athens (School of Computing), an accredited partner of the University of Derby (UK), teaching University of Derby AI and Data Science modules. Research spans applied deep learning, medical AI, deep learning in physics & astronomy, and AI & blockchain."
+
     Education:
       - institution: Aristotle University of Thessaloniki (AUTH)
         location: Thessaloniki, Greece
         url: https://www.auth.gr/en/
-        area: Deep Learning / Gravitational-Wave Astrophysics
+        area: Deep Learning
         studyType: PhD (in progress)
       - institution: University of Piraeus
         location: Piraeus, Greece
@@ -78,12 +82,14 @@ cv:
           - "Collaboration: SuiHub Athens / Mysten Labs."
 
     Supervision:
+      - label: Selected from 20+ dissertations
+        details: "Full list at [giannis00.github.io/supervision](https://giannis00.github.io/supervision/)"
       - label: MSc — Vasileios Bakalis (2026)
-        details: "*LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.* MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove."
+        details: "*LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.* MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove. [PDF](https://giannis00.github.io/assets/theses/bakalis-2026-msc-move-llm.pdf)"
       - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
-        details: "*Security Comparison of Smart Contracts in Sui vs. Other Blockchains.* BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+        details: "*Security Comparison of Smart Contracts in Sui vs. Other Blockchains.* BSc (Hons) Computer Science, Mediterranean College / University of Derby. [PDF](https://giannis00.github.io/assets/theses/chanoutsos-2026-bsc-sui-security.pdf)"
       - label: BSc — Dimitrios Zerkidis (2026)
-        details: "*AI-Based Code Style Enforcement with Code Llama.* BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+        details: "*AI-Based Code Style Enforcement with Code Llama.* BSc (Hons) Computer Science, Mediterranean College / University of Derby. [PDF](https://giannis00.github.io/assets/theses/zerkidis-2026-bsc-code-llama.pdf)"
 
     Awards:
       - bullet: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
