@@ -1,0 +1,97 @@
+cv:
+  name: Ioannis Tsioulis
+  label: PhD Candidate in Deep Learning · Accredited Lecturer (University of Derby, UK)
+  email: i.tsioulis@mc-class.gr
+  website: https://giannis00.github.io/
+  location: Athens, Greece
+  image: ""
+  summary: >
+    PhD candidate in Deep Learning at AUTH, and Accredited Lecturer at Mediterranean College,
+    Athens (School of Computing), an accredited partner of the University of Derby (UK),
+    teaching University of Derby AI and Data Science modules. Research spans applied deep
+    learning, medical AI, deep learning in physics & astronomy, and AI & blockchain.
+
+  social_networks:
+    - network: GitHub
+      username: giannis00
+
+  sections:
+    Education:
+      - institution: Aristotle University of Thessaloniki (AUTH)
+        location: Thessaloniki, Greece
+        url: https://www.auth.gr/en/
+        area: Deep Learning / Gravitational-Wave Astrophysics
+        studyType: PhD (in progress)
+      - institution: University of Piraeus
+        location: Piraeus, Greece
+        area: Cybersecurity and Data Science
+        studyType: MSc
+        end_date: 2023
+        highlights:
+          - "Awarded a merit-based scholarship."
+          - "Thesis: Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (2023). [dione.lib.unipi.gr](https://dione.lib.unipi.gr/xmlui/handle/unipi/15239)"
+      - institution: National and Kapodistrian University of Athens (NKUA)
+        location: Athens, Greece
+        area: Mathematics
+        studyType: BSc
+
+    Experience:
+      - company: Mediterranean College, Athens, School of Computing
+        position: Accredited Lecturer (University of Derby, UK)
+        location: Athens, Greece
+        start_date: 2024-10
+        end_date: present
+        highlights:
+          - "Teaching University of Derby UG and PG modules in Artificial Intelligence and Data Science."
+          - "Supervising BSc and MSc dissertations on applied AI."
+          - "Leading the SuiHub Athens / Mediterranean College applied-research collaboration (AI & blockchain)."
+
+    Research Interests:
+      - label: Areas
+        details: Applied Deep Learning; Medical AI & Computer-Aided Diagnosis; Deep Learning in Physics & Astronomy; AI & Blockchain Applications
+
+    Publications:
+      - title: "Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support"
+        authors:
+          - "Hryb, A."
+          - "Tsioulis, I."
+          - "Papadaki, M."
+          - "Tsoutsi, N.-M."
+          - "Nassi, M."
+        journal: "HAICAI 2026, Springer LNNS (accepted, in press)"
+        date: 2026
+
+    Conference Presentations & Talks:
+      - bullet: "Tsioulis, I., Hryb, A., Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens."
+      - bullet: "Tsioulis, I. (2024). Machine Learning & Neural Networks for Astronomy. Research poster, 20th Conference on Recent Developments in Gravity (HSRGC), Eugenides Foundation, Athens."
+      - bullet: "Tsioulis, I. (2025). AI in Pharmacovigilance: the Intersection of AI and Drug Safety. Guest lecture, School of Medicine, NKUA."
+
+    Datasets:
+      - bullet: "Tsioulis, I., Chaikalis, T., Anastasopoulos, K., Chanoutsos, V. E., Chrysomallis, N., Gubochkin, D. V., Margetis, A., Patrakis, V., Trousas, N., Tsipis, G., Zerkidis, D. (2026). Sui Move Issues: A Labeled Dataset for Smart Contract Error Classification (v1). Zenodo. [doi.org/10.5281/zenodo.19682589](https://doi.org/10.5281/zenodo.19682589). Supervised by I. Tsioulis; produced with BSc/MSc students at Mediterranean College in collaboration with SuiHub Athens."
+
+    Projects:
+      - name: "NiceMove: AI-Powered Move Smart-Contract Linter"
+        url: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove
+        summary: "VS Code extension that flags Sui Move smart-contract issues locally with a small specialised model, then hands fixes to Claude Code on demand."
+        highlights:
+          - "Brought to final form by Vasilis Bakalis as part of his MSc thesis; ~99% accuracy on the classification task in preliminary evaluation, outperforming general-purpose LLMs used out-of-the-box."
+          - "Collaboration: SuiHub Athens / Mysten Labs."
+
+    Supervision:
+      - label: MSc — Vasileios Bakalis (2026)
+        details: "*LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.* MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove."
+      - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
+        details: "*Security Comparison of Smart Contracts in Sui vs. Other Blockchains.* BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+      - label: BSc — Dimitrios Zerkidis (2026)
+        details: "*AI-Based Code Style Enforcement with Code Llama.* BSc (Hons) Computer Science, Mediterranean College / University of Derby."
+
+    Awards:
+      - bullet: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
+
+    Skills:
+      - label: Languages
+        details: Python, SQL, C
+      - label: ML / DL
+        details: PyTorch, deep learning, CNNs, transformers, continual learning
+      - label: Domains
+        details: Gravitational-wave astrophysics, medical AI, NLP, blockchain analysis

@@ -6,11 +6,10 @@ cv:
   location: Athens, Greece
   image: ""
   summary: >
-    PhD candidate in Deep Learning at AUTH working on deep-learning surrogate models for
-    gravitational-wave astrophysics, and Accredited Lecturer at Mediterranean College, Athens
-    (School of Computing), an accredited partner of the University of Derby (UK), teaching
-    University of Derby AI and Data Science modules. Research spans applied deep learning,
-    medical AI, deep learning in physics & astronomy, and AI & blockchain.
+    PhD candidate in Deep Learning at AUTH, and Accredited Lecturer at Mediterranean College,
+    Athens (School of Computing), an accredited partner of the University of Derby (UK),
+    teaching University of Derby AI and Data Science modules. Research spans applied deep
+    learning, medical AI, deep learning in physics & astronomy, and AI & blockchain.
 
   social_networks:
     - network: GitHub
@@ -24,8 +23,6 @@ cv:
         area: Deep Learning / Gravitational-Wave Astrophysics
         studyType: PhD (in progress)
         end_date: present
-        highlights:
-          - "Deep-learning surrogate models for gravitational-wave astrophysics."
       - institution: University of Piraeus
         location: Piraeus, Greece
         area: Cybersecurity and Data Science
