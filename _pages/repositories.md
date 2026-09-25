@@ -2,46 +2,18 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Teaching materials and research code on GitHub.
 nav: true
 nav_order: 7
 ---
 
-{% if site.data.repositories.github_users %}
+## GitHub
 
-## GitHub users
+[github.com/giannis00](https://github.com/giannis00)
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+## Repositories
 
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+- [Teach-python](https://github.com/giannis00/Teach-python) — Python teaching materials and exercises.
+- [Teach---SQL](https://github.com/giannis00/Teach---SQL) — SQL teaching materials and exercises.
+- [Teach-C-](https://github.com/giannis00/Teach-C-) — C++ teaching materials and exercises.
+- [Rapid-Calculation-of-the-Signal-to-Noise-Ratio-of-Gravitational-Wave-Sources-using-Artificial-Neural](https://github.com/giannis00/Rapid-Calculation-of-the-Signal-to-Noise-Ratio-of-Gravitational-Wave-Sources-using-Artificial-Neural) — Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (MSc thesis code).
