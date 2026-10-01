@@ -101,3 +101,7 @@ cv:
         details: PyTorch, deep learning, CNNs, transformers, continual learning
       - label: Domains
         details: Applied Deep Learning
+
+    Military Service:
+      - label: Hellenic Army (2017)
+        details: "Presidential Guard (Evzones), Athens. Compulsory national service, completed"
