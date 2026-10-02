@@ -16,7 +16,7 @@ The model and extension were brought to their final form in an MSc thesis I supe
 
 **Collaboration:** <a href="https://www.sui.io/blog/suihub-athens-opens" target="_blank">SuiHub Athens</a> / <a href="https://www.mystenlabs.com" target="_blank">Mysten Labs</a>
 
-<a href="https://sui.io" target="_blank">Sui</a> is a layer-1 blockchain whose smart contracts are written in Move. It was built by Mysten Labs, a company founded in 2021 by former Meta engineers who led the Diem blockchain and the Move language. Mysten Labs raised $300 million in 2022 at a valuation above $2 billion, and the Sui network went live in May 2023. SuiHub Athens, opened by the Sui Foundation in June 2025, is the third SuiHub worldwide after Dubai and Ho Chi Minh City.
+<a href="https://sui.io" target="_blank">Sui</a> is a layer-1 blockchain whose smart contracts are written in Move. It was built by Mysten Labs, a company founded in 2021 by former Meta engineers who led the Diem blockchain and the Move language. Mysten Labs raised USD 300 million in 2022 at a valuation above USD 2 billion, and the Sui network went live in May 2023. SuiHub Athens, opened by the Sui Foundation in June 2025, is the third SuiHub worldwide after Dubai and Ho Chi Minh City.
 
 <div style="margin-top:1.25rem;">
   <a href="https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove" role="button" target="_blank" style="display:inline-block; padding:0.5rem 1.1rem; margin:0 0.6rem 0.6rem 0; border:1px solid var(--global-theme-color); border-radius:0.375rem; color:var(--global-theme-color); font-size:1rem; font-weight:500; text-decoration:none;">VS Code Marketplace</a>
