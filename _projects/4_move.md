@@ -12,7 +12,7 @@ website: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nice
 
 The detection model was trained at minimal cost on ordinary hardware with no cloud GPUs. In our preliminary evaluation it reached ~99% accuracy on the classification task, outperforming general-purpose LLMs used out-of-the-box. A small, specialised local model beating much larger general ones at a fraction of the cost.
 
-The model and extension were brought to their final form in an MSc thesis I supervised at Mediterranean College. The underlying dataset (~3,300 labelled Sui Move snippets) was produced by a student team under my supervision and is archived on Zenodo.
+The model and extension were brought to their final form in an MSc thesis I supervised at Mediterranean College. The underlying dataset (~3,300 labelled Sui Move snippets) was produced by a student team under my supervision and is archived on Zenodo. The students were first introduced to Move in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:7424163965355626496/" target="_blank">hands-on session at SuiHub Athens</a>, and then helped collect and label the data.
 
 **Collaboration:** <a href="https://www.sui.io/blog/suihub-athens-opens" target="_blank">SuiHub Athens</a> / <a href="https://www.mystenlabs.com" target="_blank">Mysten Labs</a>
 
