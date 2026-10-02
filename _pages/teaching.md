@@ -12,6 +12,8 @@ Two complete, self-contained courses. Both start from a first line of Python, an
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning) — for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures) — a practice-first route through programming fundamentals, algorithms, and data structures.
 
+Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
+
 ---
 
 ## From Python to Deep Learning and Fine-Tuning
