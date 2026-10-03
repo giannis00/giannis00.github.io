@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-I supervise undergraduate and postgraduate dissertations at Mediterranean College, often as a research force-multiplier on topics close to my own work — applied AI, NLP, computer vision, and blockchain analysis.
+I supervise BSc and MSc dissertations at Mediterranean College, usually on topics close to my own research: applied deep learning, medical AI, and AI for blockchain.
 
 ## MSc dissertations
 
