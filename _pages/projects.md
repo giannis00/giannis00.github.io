@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects developed in my research and teaching, including student collaborations.
+description: Applied projects developed in collaboration with industry partners, together with the students I supervise.
 nav: true
 nav_order: 4
 display_categories: [work]
