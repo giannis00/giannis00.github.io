@@ -67,7 +67,7 @@ cv:
     Projects:
       - name: "NiceMove: AI-Powered Move Smart-Contract Linter"
         url: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove
-        summary: "VS Code extension that flags Sui Move smart-contract issues locally with a small specialised model, then hands fixes to Claude Code on demand."
+        summary: "VS Code extension that flags Sui Move smart-contract issues locally with a small specialised model, then hands fixes to an AI coding assistant on demand."
         highlights:
           - "Brought to final form by Vasilis Bakalis as part of his MSc thesis; ~99% accuracy on the classification task in preliminary evaluation, outperforming general-purpose LLMs used out-of-the-box."
           - "Collaboration: SuiHub Athens / Mysten Labs."
