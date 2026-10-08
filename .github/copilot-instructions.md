@@ -47,7 +47,7 @@ Do not reintroduce plugin-owned runtime assets into starter paths unless intenti
 - `docs/` - user, maintainer, upgrade, and plugin-system documentation
 - `.agents/skills/al-folio-bootstrap/SKILL.md` - canonical agent workflow for new site setup
 - `.agents/skills/al-folio-v1-migration/SKILL.md` - canonical agent workflow for customized fork migration
-- `.codex/skills` and `.claude/skills` - symlinks to `.agents/skills`
+- `.codex/skills` - symlink to `.agents/skills`
 
 ## Validated Commands
 

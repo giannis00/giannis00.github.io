@@ -8,7 +8,7 @@
 - Use `docs/BOUNDARIES.md` as the source of truth for starter-vs-plugin ownership.
 - Use `.agents/skills/al-folio-bootstrap/SKILL.md` for new-site setup tasks.
 - Use `.agents/skills/al-folio-v1-migration/SKILL.md` for customized fork migrations.
-- `.codex/skills` and `.claude/skills` are symlinks to `.agents/skills` for agent-specific discovery.
+- `.codex/skills` is a symlink to `.agents/skills` for agent-specific discovery.
 
 ## What This Repo Owns
 
