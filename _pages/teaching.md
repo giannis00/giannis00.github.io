@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Four complete open courses that run in the browser. From Python to deep learning, from zero to data structures and algorithms, from words to meaning in natural language processing, and from one table to a cluster.
+description: Four open courses, 66 notebooks, all running in your browser.
 nav: true
 nav_order: 2
 ---
 
-Four complete, self-contained courses. Every notebook runs directly in the browser via Google Colab: nothing to install. The first two start from a first line of Python. The other two assume you can already program.
+Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other two assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
