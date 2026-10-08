@@ -8,7 +8,7 @@ category: work
 website: https://marketplace.visualstudio.com/items?itemName=BakalisVasilis.nicemove
 ---
 
-**NiceMove** is a VS Code extension for Move developers that flags smart-contract issues (missing authorisation checks, unsafe transfers, dead code, and logic errors) inline as you write. Detection runs on a small, specialised model locally: fast, private, and free to run. When a fix is needed, the issue is handed to Claude Code for a concrete correction.
+**NiceMove** is a VS Code extension for Move developers that flags smart-contract issues (missing authorisation checks, unsafe transfers, dead code, and logic errors) inline as you write. Detection runs on a small, specialised model locally: fast, private, and free to run. When a fix is needed, the issue is handed to an AI coding assistant for a concrete correction.
 
 The detection model was trained at minimal cost on ordinary hardware with no cloud GPUs. In our preliminary evaluation it reached ~99% accuracy on the classification task, outperforming general-purpose LLMs used out-of-the-box. A small, specialised local model beating much larger general ones at a fraction of the cost.
 
