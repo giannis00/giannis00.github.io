@@ -2,16 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Three complete open courses of 18 notebooks each. From Python to deep learning, from zero to data structures and algorithms, and from words to meaning in natural language processing.
+description: Four complete open courses that run in the browser. From Python to deep learning, from zero to data structures and algorithms, from words to meaning in natural language processing, and from one table to a cluster.
 nav: true
 nav_order: 2
 ---
 
-Three complete, self-contained courses. Every notebook runs directly in the browser via Google Colab: nothing to install. The first two start from a first line of Python. The third assumes you can already program.
+Four complete, self-contained courses. Every notebook runs directly in the browser via Google Colab: nothing to install. The first two start from a first line of Python. The other two assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
 - [**From Words to Meaning: Natural Language Processing in Python**](#nlp): how machines read, search, translate and summarise text, from counting words to retrieval-augmented generation.
+- [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
 
 Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
 
@@ -178,3 +179,48 @@ The course does not repeat the foundations of machine learning and neural networ
 | 16 | Text from the Web: collecting text properly and responsibly | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/16_text_from_the_web.ipynb" target="_blank">Open in Colab</a> |
 | 17 | Summarisation: extractive and abstractive methods, the ROUGE score | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/17_summarisation.ipynb" target="_blank">Open in Colab</a> |
 | 18 | Semantic Search and Retrieval-Augmented Generation: finding by meaning, answering from sources | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/18_semantic_search_rag.ipynb" target="_blank">Open in Colab</a> |
+
+---
+
+## From One Table to a Cluster: Working with Data at Scale
+{: #data-at-scale}
+
+A complete course on what happens to data once there is a lot of it: SQL and indexes, data warehouses, columnar files, NoSQL, MapReduce, Spark, streaming and the cloud. It assumes you can already program in Python, and no knowledge of databases. The notebooks run directly in the browser via Google Colab: nothing to install.
+
+One question runs through all 12 notebooks: what changes when the data no longer fits? In one table, in the time a query has, in memory, on one machine, and finally in time itself. Each idea is first explained in plain words, then built by hand in a few lines of Python, and only then handed to a professional tool. Every claim about speed or size is measured, including the cases where the simple approach beats the heavy machinery.
+
+The course does not repeat what the others cover. Working with tables in pandas and machine learning are in [From Python to Deep Learning and Fine-Tuning](#deep-learning). Big O, binary search, hash tables and trees are in [From Zero to Data Structures and Algorithms in Python](#data-structures).
+
+---
+
+### Module A: Data at Rest
+
+| # | Notebook | |
+|---|----------|---|
+| 1 | Tables and SQL: the relational model, keys, first queries, transactions | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/01_tables_and_sql.ipynb" target="_blank">Open in Colab</a> |
+| 2 | Joins and Aggregation: combining tables, grouping, window functions | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/02_joins_and_aggregation.ipynb" target="_blank">Open in Colab</a> |
+| 3 | Indexes and Query Plans: why some queries are instant and others crawl | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/03_indexes_and_query_plans.ipynb" target="_blank">Open in Colab</a> |
+| 4 | Data Warehouses: facts, dimensions and the star schema | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/04_data_warehouses.ipynb" target="_blank">Open in Colab</a> |
+
+### Module B: Beyond Tables
+
+| # | Notebook | |
+|---|----------|---|
+| 5 | Files and Formats: rows against columns, CSV against Parquet | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/05_files_and_formats.ipynb" target="_blank">Open in Colab</a> |
+| 6 | NoSQL: documents, key-value stores, sharding, replication and the CAP theorem | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/06_nosql.ipynb" target="_blank">Open in Colab</a> |
+
+### Module C: Too Big for One Machine
+
+| # | Notebook | |
+|---|----------|---|
+| 7 | Larger than Memory: streaming through data that does not fit | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/07_larger_than_memory.ipynb" target="_blank">Open in Colab</a> |
+| 8 | MapReduce by Hand: divide, map, shuffle, reduce | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/08_mapreduce_by_hand.ipynb" target="_blank">Open in Colab</a> |
+| 9 | Spark, RDDs and DataFrames: a cluster engine in your notebook | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/09_spark_rdds_dataframes.ipynb" target="_blank">Open in Colab</a> |
+| 10 | Spark SQL and Pipelines: and when a cluster is the wrong tool | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/10_spark_sql_pipelines.ipynb" target="_blank">Open in Colab</a> |
+
+### Module D: Data in Motion and in the Cloud
+
+| # | Notebook | |
+|---|----------|---|
+| 11 | Streaming: windows, late data and answers that are never final | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/11_streaming.ipynb" target="_blank">Open in Colab</a> |
+| 12 | The Cloud and an End-to-End Pipeline: counting the cost, putting it all together | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/12_cloud_and_pipeline.ipynb" target="_blank">Open in Colab</a> |
