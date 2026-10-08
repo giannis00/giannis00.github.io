@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Four open courses, 66 notebooks, all running in your browser.
+description: Four open courses, all running in your browser.
 nav: true
 nav_order: 2
 ---
