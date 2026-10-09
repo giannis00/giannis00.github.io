@@ -9,13 +9,7 @@ nav_order: 5
 
 I supervise BSc and MSc dissertations at Mediterranean College, usually on topics close to my own research: applied deep learning, medical AI, and AI for blockchain.
 
-## Thesis proposals for 2026–27
-
-**Sui Move Thesis Proposals**
-Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component.
-[PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
-
----
+Looking for a topic for 2026–27? See the [thesis proposals](#proposals) below.
 
 ## MSc dissertations
 
@@ -34,3 +28,12 @@ BSc (Hons) Computer Science, Mediterranean College / University of Derby. System
 **Dimitrios Zerkidis** — *AI-Based Code Style Enforcement with Code Llama* (2026)
 BSc (Hons) Computer Science, Mediterranean College / University of Derby. Fine-tuned Code Llama for automated code style enforcement, evaluating adherence to style guides across Python codebases.
 [PDF](/assets/theses/zerkidis-2026-bsc-code-llama.pdf)
+
+---
+
+## Thesis proposals for 2026–27
+{: #proposals}
+
+**Sui Move Thesis Proposals**
+Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component.
+[PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
