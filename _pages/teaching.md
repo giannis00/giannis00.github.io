@@ -2,17 +2,18 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Four open courses, all running in your browser.
+description: Five open courses, all running in your browser.
 nav: true
 nav_order: 2
 ---
 
-Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other two assume you can already program.
+Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other three assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
 - [**From Words to Meaning: Natural Language Processing in Python**](#nlp): how machines read, search, translate and summarise text, from counting words to retrieval-augmented generation.
 - [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
+- [**From Random Moves to Winning Agents: Reinforcement Learning with Games**](#reinforcement-learning): agents that learn by trial and error, from slot machines to Snake, a lunar lander and self-play, with videos of the agents you train.
 
 Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
 
@@ -224,3 +225,59 @@ The course does not repeat what the others cover. Working with tables in pandas 
 |---|----------|---|
 | 11 | Streaming: windows, late data and answers that are never final | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/11_streaming.ipynb" target="_blank">Open in Colab</a> |
 | 12 | The Cloud and an End-to-End Pipeline: counting the cost, putting it all together | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/12_cloud_and_pipeline.ipynb" target="_blank">Open in Colab</a> |
+
+---
+
+## From Random Moves to Winning Agents: Reinforcement Learning with Games
+{: #reinforcement-learning}
+
+A complete course on agents that learn by trial and error. Nobody shows them the right answer: they act, receive a reward, and work out for themselves how to get more of it. Every idea is taught with a game, from a row of slot machines to Snake, a lunar lander, Flappy Bird and Connect Four, and in almost every notebook you watch a video of the agent you have just trained. The notebooks run in Google Colab without a GPU.
+
+Each method is first explained in plain words, then written by hand in a few lines of Python, and only then taken from a library: Q-learning, deep Q-networks, policy gradients, PPO, tree search and self-play. Results in this field vary a great deal from one run to the next, so the course measures before it claims, and says so when an experiment shows no clear difference.
+
+The course assumes you can program in Python. From Module C on the agents are neural networks in PyTorch, which are covered in [From Python to Deep Learning and Fine-Tuning](#deep-learning). Most cells finish in seconds. A few train an agent for some minutes, and the notebook says so beforehand.
+
+---
+
+### Module A: Foundations
+
+| # | Notebook | |
+|---|----------|---|
+| 1 | Learning by Trial and Error: slot machines, estimating values, exploring and exploiting | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/01_trial_and_error.ipynb" target="_blank">Open in Colab</a> |
+| 2 | Worlds, States and Rewards: environments, returns, policies, the Gymnasium library | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/02_worlds_states_rewards.ipynb" target="_blank">Open in Colab</a> |
+| 3 | Planning with the Bellman Equations: value functions, policy iteration, value iteration | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/03_planning_bellman.ipynb" target="_blank">Open in Colab</a> |
+| 4 | Learning from Complete Episodes: Monte Carlo methods, Blackjack learned from wins and losses | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/04_learning_from_episodes.ipynb" target="_blank">Open in Colab</a> |
+
+### Module B: Learning with a Table
+
+| # | Notebook | |
+|---|----------|---|
+| 5 | Learning Step by Step: SARSA and Q-learning, on-policy and off-policy | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/05_sarsa_and_q_learning.ipynb" target="_blank">Open in Colab</a> |
+| 6 | Building Snake: a game of our own as an environment, observations and rewards | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/06_building_snake.ipynb" target="_blank">Open in Colab</a> |
+| 7 | A Snake That Learns: Q-learning on Snake, exploration, reward hacking, the limits of tables | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/07_a_snake_that_learns.ipynb" target="_blank">Open in Colab</a> |
+
+### Module C: Deep Value-Based Learning
+
+| # | Notebook | |
+|---|----------|---|
+| 8 | When the Table Is Too Big: a network as Q-function, and why it is unstable | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/08_when_the_table_is_too_big.ipynb" target="_blank">Open in Colab</a> |
+| 9 | Deep Q-Networks: experience replay, target networks, landing a spacecraft | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/09_deep_q_networks.ipynb" target="_blank">Open in Colab</a> |
+| 10 | Better Deep Q-Networks: Double DQN, dueling networks, prioritised replay, Flappy Bird | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/10_better_deep_q_networks.ipynb" target="_blank">Open in Colab</a> |
+| 11 | Learning from Pixels: convolutional agents, frame stacking, Atari, the Pokémon Red project | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/11_learning_from_pixels.ipynb" target="_blank">Open in Colab</a> |
+
+### Module D: Policy-Based Learning
+
+| # | Notebook | |
+|---|----------|---|
+| 12 | Policy Gradients: policy networks, REINFORCE, baselines | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/12_policy_gradients.ipynb" target="_blank">Open in Colab</a> |
+| 13 | Actor-Critic Methods: advantages, a critic, generalised advantage estimation, A2C | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/13_actor_critic.ipynb" target="_blank">Open in Colab</a> |
+| 14 | Proximal Policy Optimisation: the clipped objective, by hand and from a library | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/14_proximal_policy_optimisation.ipynb" target="_blank">Open in Colab</a> |
+| 15 | Continuous Actions: Gaussian policies, swinging up a pendulum, off-policy control with SAC | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/15_continuous_actions.ipynb" target="_blank">Open in Colab</a> |
+
+### Module E: Beyond a Single Agent
+
+| # | Notebook | |
+|---|----------|---|
+| 16 | Planning and Tree Search: Dyna-Q, minimax, Monte Carlo tree search, the idea of AlphaZero | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/16_planning_and_tree_search.ipynb" target="_blank">Open in Colab</a> |
+| 17 | Opponents and Self-Play: self-play, games without a best move, a monster-battle tournament | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/17_opponents_and_self_play.ipynb" target="_blank">Open in Colab</a> |
+| 18 | Reinforcement Learning in Practice: seeds and confidence intervals, reward design, your own project | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-random-moves-to-winning-agents/18_rl_in_practice.ipynb" target="_blank">Open in Colab</a> |
