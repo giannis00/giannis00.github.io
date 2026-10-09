@@ -9,6 +9,14 @@ nav_order: 5
 
 I supervise BSc and MSc dissertations at Mediterranean College, usually on topics close to my own research: applied deep learning, medical AI, and AI for blockchain.
 
+## Thesis proposals for 2026–27
+
+**Sui Move Thesis Proposals**
+Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component.
+[PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
+
+---
+
 ## MSc dissertations
 
 **Vasileios Bakalis** — *LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison* (2026)
