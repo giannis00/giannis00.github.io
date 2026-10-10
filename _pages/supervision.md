@@ -37,3 +37,7 @@ BSc (Hons) Computer Science, Mediterranean College / University of Derby. Fine-t
 **Sui Move Thesis Proposals**
 Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component.
 [PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
+
+**Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research**
+Six topics on a rare skin cancer that is hard to tell apart from common inflammatory skin diseases, offered in collaboration with researchers from the field of medicine: image classification with deep learning, an evaluation of vision language models, an audit of public image datasets, language models as a source of patient information in English and in Greek, a quality appraisal of the published models, and a scoping review. Every topic can be completed with public data and is planned as a study that can be submitted for publication.
+[PDF](/assets/theses/ai-cutaneous-lymphoma-thesis-proposals-2026-27.pdf)
