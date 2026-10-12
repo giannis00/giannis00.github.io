@@ -188,7 +188,7 @@ The course does not repeat the foundations of machine learning and neural networ
 
 A complete course on what happens to data once there is a lot of it: SQL and indexes, data warehouses, columnar files, NoSQL, MapReduce, Spark, streaming and the cloud. It assumes you can already program in Python, and no knowledge of databases. The notebooks run directly in the browser via Google Colab: nothing to install.
 
-One question runs through all 12 notebooks: what changes when the data no longer fits? In one table, in the time a query has, in memory, on one machine, and finally in time itself. Each idea is first explained in plain words, then built by hand in a few lines of Python, and only then handed to a professional tool. Every claim about speed or size is measured, including the cases where the simple approach beats the heavy machinery.
+One question runs through the first 12 notebooks: what changes when the data no longer fits? In one table, in the time a query has, in memory, on one machine, and finally in time itself. Each idea is first explained in plain words, then built by hand in a few lines of Python, and only then handed to a professional tool. Every claim about speed or size is measured, including the cases where the simple approach beats the heavy machinery. The six notebooks of the last module take one real data warehouse, Microsoft's AdventureWorks sample, through every idea of the course.
 
 The course does not repeat what the others cover. Working with tables in pandas and machine learning are in [From Python to Deep Learning and Fine-Tuning](#deep-learning). Big O, binary search, hash tables and trees are in [From Zero to Data Structures and Algorithms in Python](#data-structures).
 
@@ -225,6 +225,17 @@ The course does not repeat what the others cover. Working with tables in pandas 
 |---|----------|---|
 | 11 | Streaming: windows, late data and answers that are never final | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/11_streaming.ipynb" target="_blank">Open in Colab</a> |
 | 12 | The Cloud and an End-to-End Pipeline: counting the cost, putting it all together | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/12_cloud_and_pipeline.ipynb" target="_blank">Open in Colab</a> |
+
+### Module E: A Real Warehouse, End to End
+
+| # | Notebook | |
+|---|----------|---|
+| 13 | Meet a Real Warehouse: an inventory, the grain, missing values, keys and personal data | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/13_meet_a_real_warehouse.ipynb" target="_blank">Open in Colab</a> |
+| 14 | Building the Warehouse: enforced keys, views, indexes and summary tables | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/14_building_the_warehouse.ipynb" target="_blank">Open in Colab</a> |
+| 15 | From Warehouse to Documents: the same sales as MongoDB documents, and what each shape costs | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/15_warehouse_to_documents.ipynb" target="_blank">Open in Colab</a> |
+| 16 | Exploring the Data with Spark: an exploratory data analysis that brings back only answers | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/16_exploring_with_spark.ipynb" target="_blank">Open in Colab</a> |
+| 17 | Machine Learning with Spark MLlib: pipelines, honest evaluation, leakage and customer segments | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/17_spark_mllib.ipynb" target="_blank">Open in Colab</a> |
+| 18 | Measuring Scale: pandas, SQLite and Spark on growing data, and when one machine is enough | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/18_measuring_scale.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
