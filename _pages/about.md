@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Deep Learning, <a href='https://www.auth.gr/en/'>AUTH</a> · Accredited Lecturer (University of Derby, UK), <a href='https://www.medcollege.edu.gr/en/'>Mediterranean College</a>
+subtitle: PhD Candidate in Deep Learning, <a href='https://www.auth.gr/en/'>AUTH</a> · Accredited Lecturer (<a href='https://www.derby.ac.uk/'>University of Derby</a>, UK), <a href='https://www.medcollege.edu.gr/en/'>Mediterranean College</a>
 
 profile:
   align: right
