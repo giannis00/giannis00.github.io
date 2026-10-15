@@ -35,13 +35,15 @@ th { color: #1f3864; font-weight: bold; }
 """
 
 
-def build():
+def build(html_path=None, output_path=None, title=None, subject=None):
+    html_path = Path(html_path) if html_path is not None else HERE / "medical-proposals.html"
+    output_path = Path(output_path) if output_path is not None else OUTPUT
     reference = fitz.open(REFERENCE)
     width, height = reference[0].rect.width, reference[0].rect.height
     directory = HERE / "fonts"
     regular = fitz.Font(fontfile=str(directory / "Carlito-Regular.ttf"))
     story = fitz.Story(
-        html=(HERE / "medical-proposals.html").read_text(encoding="utf-8"),
+        html=html_path.read_text(encoding="utf-8"),
         user_css=CSS,
         archive=fitz.Archive(str(directory)),
     )
@@ -86,14 +88,14 @@ def build():
             block = str(len(entries)) + " beginbfchar\n" + "\n".join(entries) + "\nendbfchar\n"
             result.update_stream(cmap_xref, cmap.replace("endcmap", block + "endcmap").encode("ascii"))
     result.set_metadata({
-        "title": "Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research",
+        "title": title or "Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research",
         "author": "Ioannis Tsioulis",
-        "subject": "Eight public-data AI dissertation topics for 2026-27",
+        "subject": subject or "Eight public-data AI dissertation topics for 2026-27",
         "keywords": "artificial intelligence, deep learning, cutaneous lymphoma, public data, thesis proposals",
         "creator": "Ioannis Tsioulis",
     })
-    result.save(OUTPUT, garbage=4, deflate=True)
-    print(f"Built {OUTPUT.name}: {len(result)} pages")
+    result.save(output_path, garbage=4, deflate=True)
+    print(f"Built {output_path.name}: {len(result)} pages")
 
 
 if __name__ == "__main__":
