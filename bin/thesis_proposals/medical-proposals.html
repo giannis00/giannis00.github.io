@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research</title></head>
+<body>
+<h1>Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research</h1>
+<h2>Overview</h2>
+<p>These eight topics connect applied artificial intelligence with research on cutaneous lymphoma and its treatments. They cover clinical images, language models, published research and approved medicine information. Each combines a <b>theoretical component</b> with a <b>practical component</b>, and every dissertation can be completed using public data and documents without access to a hospital.</p>
+<p>The work is supervised from an AI and computing perspective, in collaboration with researchers from medicine who help define clinically meaningful questions and interpret the findings. Clinical judgements are reviewed by appropriate medical or pharmacy experts. Students do not work with identifiable patient records.</p>
+<p>The topics have deliberately bounded starting points: existing datasets, pretrained models, a small number of well-chosen comparisons and a clearly defined evaluation. Training a large model from scratch is not required. More ambitious extensions are optional. Before experiments begin, each student checks the closest recent work, confirms access and reuse conditions, and agrees a protocol and reference annotations with the supervisor. A topic title is a research direction, not a claim that no similar study exists.</p>
+<p>Several dissertations can contribute to one stronger joint study. Topics 1-3 form an image research strand; topics 6 and 8 form an evidence extraction and verification strand. Topics 4, 5 and 7 address separate questions, but may be combined with related work when that produces a more substantial contribution. Publication depends on the novelty, quality and completeness of the results; it is not guaranteed for each dissertation.</p>
+<h2>Links and Resources</h2>
+<table>
+<tr><td>Open Science Framework</td><td><a href="https://osf.io/">https://osf.io/</a></td></tr>
+<tr><td>Reporting guidelines</td><td><a href="https://www.equator-network.org/">EQUATOR Network</a>; <a href="https://www.prisma-statement.org/">PRISMA</a>; <a href="https://www.tripod-statement.org/">TRIPOD</a></td></tr>
+<tr><td>Risk of bias</td><td><a href="https://www.probast.org/">PROBAST and current AI-specific guidance</a></td></tr>
+<tr><td>Public image data</td><td><a href="https://github.com/mattgroh/fitzpatrick17k">Fitzpatrick17k</a>, DDI and SkinCon, under their respective terms</td></tr>
+<tr><td>Medicine information</td><td><a href="https://www.ema.europa.eu/en/medicines">European Medicines Agency: approved product information</a></td></tr>
+<tr><td>Trials and publications</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>; <a href="https://pmc.ncbi.nlm.nih.gov/">PubMed Central</a>, checking article reuse conditions</td></tr>
+<tr><td>Public evaluation resources</td><td><a href="https://github.com/ai-systems/nli4ct">NLI4CT</a>; <a href="https://github.com/RoBBR-Benchmark/RoBBR">RoBBR</a>, as reference tasks rather than CTCL-specific data</td></tr>
+</table>
+
+<div class="page">
+<h2>Thesis Topics</h2>
+<p>The image topics appear first, followed by language-model topics. Topics 4, 6, 7 and 8 offer relatively modest computing requirements; topic 5 depends more on expert annotation and careful reading. The order is not a publication timetable.</p>
+<div class="topic">
+<h3>1. Reliable Deep Learning for Recognising Mycosis Fungoides Among Its Inflammatory Mimics</h3>
+<p>This topic evaluates whether image models distinguish mycosis fungoides from selected inflammatory skin diseases when the image source changes. The starting point is a reproducible comparison of pretrained representations and simple classifiers, with limited fine tuning as an extension. The central question is which approach remains reliable on an independent source, rather than which achieves the highest random-split score.</p>
+<h4>Theoretical component</h4>
+<p>The student studies transfer learning, frozen visual representations, dataset shift, calibration and selective prediction, where a model can defer uncertain cases. The study covers leakage through duplicates, source artefacts and related images, and the uncertainty of estimates from small rare-disease datasets.</p>
+<h4>Practical component</h4>
+<p>Using public clinical photographs, the student defines a disease comparison with medical collaborators and uses the cleaned manifest from topic 3 where available. The initial models are a frozen conventional vision encoder and a frozen self-supervised or dermatology encoder with a simple classifier. Fine tuning one encoder is optional. A simple reference model and source-prediction checks help determine whether improvements reflect useful disease information.</p>
+<p>Training, preprocessing and model selection are separated from the final test source. Duplicate groups stay together, and source-disjoint evaluation is used where the available classes support it. Calibration and any abstention threshold are selected on development data. Evaluation includes sensitivity, specificity, uncertainty intervals, calibration and the proportion of cases on which the model answers. Error analysis examines disease groups, source and, where sufficiently supported, skin tone.</p>
+<p>If patient identifiers are unavailable, the student reports this limitation and does not describe deduplication as patient-level separation. Images without verified disease stage cannot establish early-stage diagnostic performance. Saliency maps support exploratory analysis rather than prove that a model reasons clinically.</p>
+<h4>Main outcomes and further work</h4>
+<p>A reproducible image-model comparison, independent-source evaluation where feasible, and a calibrated error analysis. Together with topics 2 and 3, this can support one joint study using shared images and locked evaluation rules. A small fine-tuning or abstention experiment is a possible extension.</p>
+<p><b>Required skills:</b> good Python, basic PyTorch and machine learning evaluation. A GPU is useful for fine tuning; frozen features reduce the computing requirement.</p>
+</div></div>
+
+<div class="page topic">
+<h3>2. Vision-Language Models for Mycosis Fungoides: Diagnostic Evidence, Repeatability and Uncertainty</h3>
+<p>This topic tests existing vision-language models on public photographs of mycosis fungoides and its inflammatory mimics. It is a bounded evaluation project: a small number of models, a fixed task and predefined prompts. Its contribution lies in a carefully controlled disease-specific evaluation, not in training a new large model.</p>
+<h4>Theoretical component</h4>
+<p>The student studies image-text representations, zero-shot classification, generated differential diagnoses, prompt sensitivity and uncertainty. The review examines prior dermatology benchmarks, possible exposure of models to public test images, and the difference between a plausible explanation and evidence actually visible in a photograph.</p>
+<h4>Practical component</h4>
+<p>The student works with the same comparison diseases, image manifest and source groups as topics 1 and 3. The protocol fixes two or three accessible models, their versions and inference settings, a small prompt set and a primary classification task. A top-three differential diagnosis can be a secondary task. A classifier on frozen image features provides a reference point.</p>
+<p>The evaluation records sensitivity and specificity for mycosis fungoides, repeatability on a predefined subset, prompt-related changes, refusal or abstention frequency, and inference cost. If probabilities are unavailable, the study does not treat a model's verbal confidence as a calibrated probability. Performance on answered cases is reported alongside the fraction of images answered.</p>
+<p>Medical collaborators review a predefined sample of explanations without seeing model identity and assess whether the described features are visible. Differences by image source and comparison disease are examined. Skin-tone subgroup estimates are included only when supported by enough cases, with uncertainty intervals and limitations.</p>
+<p>Public-atlas contamination cannot normally be excluded. The student records known training-data overlap, tests a less familiar source if suitable data exist and describes the remaining uncertainty. The final test set is not used to select prompts, models or demonstrations.</p>
+<h4>Main outcomes and further work</h4>
+<p>A reproducible model evaluation with an error taxonomy, repeatability results and a small expert-reviewed explanation set. Results can be combined with topics 1 and 3 into one comparison of trained, frozen-feature and zero-shot approaches on the same task. A few-shot extension is optional and uses development examples only.</p>
+<p><b>Required skills:</b> good Python, model libraries or APIs, and basic statistics. No training of a large model is required. Access costs and permitted image uses must be checked before selecting models.</p>
+</div>
+
+<div class="page topic">
+<h3>3. An AI-Assisted Audit of Public Images for Cutaneous Lymphoma Research</h3>
+<p>This topic creates a reliable, documented image manifest for the image research strand. It uses pretrained visual embeddings and duplicate-detection methods to investigate image overlap, label consistency, source composition and representation. It suits a student who prefers data analysis and reproducible engineering to neural-network training.</p>
+<h4>Theoretical component</h4>
+<p>The student studies dataset documentation, perceptual hashing, embedding similarity, label noise and evaluation leakage. The review covers published audits and cleaned versions of dermatology datasets so that the dissertation adds a disease-specific contribution rather than repeating a general cleaning exercise. Skin-tone labels are considered with their measurement limitations.</p>
+<h4>Practical component</h4>
+<p>The student inventories publicly accessible collections with relevant lymphoma and comparison images. For each source, the inventory records terms of access and reuse, available identifiers, diagnosis labels, provenance and other annotations. Availability of metadata is distinguished from permission or ability to download and reuse the photographs.</p>
+<p>Perceptual hashes and pretrained image embeddings identify candidate duplicates within and across sources. Thresholds are developed on a manually reviewed sample. Candidate matches are checked before creating duplicate groups. The student quantifies how cleaning changes the number of independent image groups and the distribution of disease labels and sources.</p>
+<p>Medical collaborators independently review a bounded subset for diagnostic plausibility, photograph quality and relevant visible characteristics. Agreement is reported and disagreements remain traceable. Labels are not described as histologically verified unless the source supplies that evidence. Patient identities or early-disease status are not inferred from visual similarity alone.</p>
+<p>A small frozen-feature classifier compares an ordinary image split with a duplicate-group split and, where feasible, a source-disjoint split. This gives the audit a direct AI experiment showing how data decisions change measured performance. The same manifest can then support topics 1 and 2.</p>
+<h4>Main outcomes and further work</h4>
+<p>A versioned inventory, reviewed duplicate groups, a data card, split recommendations and a small benchmark. Release identifiers and annotations under appropriate terms; redistribute images only when permitted. This can form the data contribution to a joint image paper. A standalone resource paper is considered only if the resource and findings are substantial enough.</p>
+<p><b>Required skills:</b> Python data handling, attention to detail and basic statistics. Pretrained embeddings provide the AI component; advanced model training is not required.</p>
+</div>
+
+<div class="page topic">
+<h3>4. Evidence-Grounded AI Information on Cutaneous Lymphoma Treatments in English and Greek</h3>
+<p>This topic measures how accurately language models answer treatment-information questions in English and Greek, and whether providing approved evidence reduces errors and omissions. It is an evaluation of information fidelity, not a system for recommending a treatment to an individual patient. The initial study uses a bounded set of medicines and factual questions.</p>
+<h4>Theoretical component</h4>
+<p>The student studies retrieval-augmented generation, cross-language retrieval, factual support, answer completeness and abstention when evidence is insufficient. The literature review distinguishes this work from existing drug-information and medical question-answering benchmarks. It identifies which combination of language, evidence handling and error analysis adds a defensible contribution.</p>
+<h4>Practical component</h4>
+<p>Public EMA product information and approved patient leaflets provide dated English and Greek source documents for a clinically agreed treatment scope. Disease-information sources may support a separately defined question subset. Each question has an independently checked reference answer, required facts, supporting passages and an explicit indication when the supplied sources cannot answer it.</p>
+<p>The student compares two or three accessible language models under matched conditions: without supplied documents, with retrieved passages, and with the correct passages supplied directly. These conditions distinguish retrieval failures from answer-generation failures. Questions and prompts are piloted on development material and fixed before final evaluation. Translations are checked by a bilingual reviewer.</p>
+<p>Primary outcomes are factual accuracy, omission of predefined critical facts, support by the cited passage and appropriate abstention. Medical or pharmacy reviewers assess clinical significance without seeing model identity. Agreement between reviewers and the handling of disagreements are reported. Readability is secondary and is not treated as evidence of correctness.</p>
+<p>Questions based on the same source fact or medicine are grouped during analysis. Repeated model answers do not count as independent questions. If models are adapted or prompts tuned, evaluation questions remain separate. Model versions, document dates, settings, cost and repeated-run variability are recorded.</p>
+<h4>Main outcomes and further work</h4>
+<p>A bilingual question-and-evidence resource, a controlled comparison of evidence-access methods, and an error analysis useful to medical-information research. An optional extension examines a specific retrieval or abstention improvement. Topic 7 can contribute a complementary communication task, or the two can be combined if the separate results are too limited.</p>
+<p><b>Required skills:</b> Python scripting, basic NLP and statistics, organised work, and fluent Greek and English. Medical or pharmacy reviewers are needed for clinical appraisal, but no hospital dataset is required.</p>
+</div>
+
+<div class="page topic">
+<h3>5. Can Language Models Help Appraise the Methodological Quality of AI Studies in Cutaneous Lymphoma?</h3>
+<p>This topic evaluates language models as assistants for finding and checking methodological evidence in published prediction-model studies. It combines a focused literature map with an empirical AI benchmark. A general review of AI in cutaneous lymphoma is not assumed to be novel: related reviews and conference abstracts must be examined before defining the final scope.</p>
+<h4>Theoretical component</h4>
+<p>The student studies internal and external validation, overfitting, patient-level splitting, calibration and data leakage. The review covers the current appropriate versions of PROBAST and TRIPOD, the distinction between risk of bias and completeness of reporting, and existing AI appraisal benchmarks such as RoBBR. A missing report is not automatically evidence that a method was not performed.</p>
+<h4>Practical component</h4>
+<p>The student writes a protocol and searches for eligible CTCL prediction-model studies. A short literature map supplies context and identifies overlap with previous reviews. If the CTCL evidence base is too small for a meaningful benchmark, the scope is widened to a clearly defined related dermatology prediction task before model experiments begin, or the work contributes to a larger joint study.</p>
+<p>Two independent reviewers create a reference set of explicit methodological facts and selected appraisal judgements, with source passages and documented adjudication. Examples include the reported split unit, use of external validation, calibration assessment, and availability of code. The supervisor arranges appropriate expertise for risk-of-bias judgements.</p>
+<p>The student compares direct full-text prompting with evidence retrieval followed by a structured answer. The model must distinguish reported evidence, insufficient information and uncertainty. Evaluation separates factual extraction from higher-level appraisal; an LLM-generated rating is never used as its own reference standard.</p>
+<p>Results include agreement with adjudicated reviewers, evidence support, false claims about unreported methods, and error types. A predefined human-only versus AI-assisted subset can measure review time and correction burden if staffing permits. Papers used for prompt development remain separate from final evaluation.</p>
+<h4>Main outcomes and further work</h4>
+<p>A documented evidence map, an expert-annotated methodological benchmark and a reproducible evaluation of AI-assisted appraisal. These are intended as one coherent methods study rather than separate near-identical review papers. The dissertation may also provide shared literature identifiers for topics 6 and 8 while keeping its own distinct question.</p>
+<p><b>Required skills:</b> understanding of machine learning evaluation, good academic English, careful reading and basic Python. Expert-review availability is the main practical dependency.</p>
+</div>
+
+<div class="page topic">
+<h3>6. AI-Assisted Extraction of Treatment Outcomes from Public Cutaneous Lymphoma Studies</h3>
+<p>This topic evaluates whether language models can extract treatment results with the correct outcome definition, population, time point and supporting evidence. It addresses an evidence-synthesis task relevant to pharmaceutical research, using public trial records and reusable publications. It does not estimate treatment effects from individual patient data.</p>
+<h4>Theoretical component</h4>
+<p>The student studies information extraction, structured generation, evidence retrieval and the interpretation of trial outcomes. Medical collaborators explain the distinction between skin and global response, relevant analysis populations, confirmation of response and duration. The student reviews existing numerical extraction tools and evidence-synthesis systems, including TrialMind, to define the remaining task-specific question.</p>
+<h4>Practical component</h4>
+<p>A feasibility inventory identifies CTCL studies with accessible result records or full-text reports that permit the intended use. The initial task uses one or two well-defined outcome families and a manageable set of fields. Expert-checked reference entries link each value to the treatment arm, population, outcome definition, denominator, time point and exact source passage. An unreported value is left unknown.</p>
+<p>The student compares direct prompting, retrieval-assisted extraction and a structured extraction pipeline with simple consistency checks. The checks can flag a response count larger than its denominator, a percentage inconsistent with the reported count, or an outcome missing its population. They do not convert different outcome definitions into equivalent clinical endpoints.</p>
+<p>Accuracy is evaluated both by field and by complete outcome record. Error analysis distinguishes a wrong value, wrong arm, wrong denominator, wrong time point and unsupported extraction. The system can abstain instead of filling a missing field. Review effort and computation cost are recorded where directly measurable.</p>
+<p>All records and publications from the same trial stay together across development and test sets. Trial registration identifiers help prevent overlap with secondary reports. If suitable CTCL results are too few, the study becomes a bounded rare-disease case study combined with topic 8, or its scope is revised before data collection.</p>
+<h4>Main outcomes and further work</h4>
+<p>An annotated outcome-extraction resource, a reproducible pipeline and a detailed numerical error analysis. Topic 8 adds an independent claim-verification stage, allowing the two dissertations to support one larger study of extraction and verification. Any human-time saving is claimed only if a timed comparison is actually performed.</p>
+<p><b>Required skills:</b> good Python, structured data handling, basic NLP and statistics. No GPU training is required; domain-expert reference review is needed.</p>
+</div>
+
+<div class="page topic">
+<h3>7. Faithful AI Simplification of Approved Treatment Information in English and Greek</h3>
+<p>This topic asks whether language models can make approved medicine information easier to read while preserving its critical meaning. The task is rewriting a supplied passage rather than answering a question. It studies factual omissions and changes to numbers, conditions and warnings, alongside readability.</p>
+<h4>Theoretical component</h4>
+<p>The student studies controlled text generation, plain-language rewriting, factual consistency and cross-language evaluation. The review examines existing package-leaflet simplification work and readability tools, including the limited validity of directly applying English formulas to Greek. Lower reading difficulty is considered together with retention of required information.</p>
+<h4>Practical component</h4>
+<p>The student selects matched English and Greek passages from public EMA product information for the agreed treatment scope. Suitable passages contain clearly identifiable facts, such as an administration condition, a monitoring requirement or a warning. A medical or pharmacy reviewer checks a structured checklist of facts that every acceptable rewrite must preserve. The source version and date are recorded.</p>
+<p>Two or three language models are compared under a small set of fixed strategies: ordinary plain-language rewriting, rewriting guided by a required-fact checklist, and rewriting followed by a verification-and-revision step. Development passages are used to refine prompts; final passages remain held out by document or medicine where feasible.</p>
+<p>Independent reviewers, blinded to model and strategy, assess preservation of facts, omissions, changed negations and conditions, unsupported additions and clarity. Automatic checks record changes to numbers, units and medicine names, but do not replace judgement about the meaning of a warning. A predefined subset is repeated to assess output stability.</p>
+<p>The analysis compares readability and factual retention jointly. It reports whether a method achieves clearer text at the cost of lost meaning, with uncertainty intervals clustered by source document. Patient comprehension or clinical safety is not inferred from readability scores; those would require a separate appropriately designed user study.</p>
+<h4>Main outcomes and further work</h4>
+<p>A bilingual passage-and-fact resource, a controlled comparison of rewriting strategies and a reusable error taxonomy. The results can inform evaluation of patient-information workflows. This task may support its own paper if it has substantial distinct findings, or join topic 4 as a larger study of evidence-grounded treatment communication.</p>
+<p><b>Required skills:</b> basic Python and statistics, fluent Greek and English, and careful annotation. Computing requirements are modest. Medical or pharmacy review is needed for the fact checklist and clinical interpretation.</p>
+</div>
+
+<div class="page topic">
+<h3>8. Verifying Numerical Treatment Claims with Language Models and Executable Checks</h3>
+<p>This topic investigates how AI systems can verify a treatment claim against supplied study evidence. It complements the extraction task in topic 6: extraction produces an outcome record, while verification checks whether a statement is supported by the record and its source. The emphasis is on numbers, populations, time points and appropriate uncertainty.</p>
+<h4>Theoretical component</h4>
+<p>The student studies natural language inference, numerical reasoning, evidence attribution and selective prediction. The review includes NLI4CT and its perturbed clinical-trial tasks, which already evaluate logical and numerical consistency. The dissertation must identify an additional contribution, such as a tested verification method or a well-defined CTCL extension, rather than only rerunning an established benchmark on newer models.</p>
+<h4>Practical component</h4>
+<p>The initial experiments use a public annotated clinical-trial inference dataset with existing reference labels. This is a general reference task, not a CTCL cohort. A separate, expert-checked CTCL set is built from public treatment reports or the held-out source material of topic 6. Claims and annotations are created independently of the model under evaluation.</p>
+<p>The student compares a compact pretrained text model, a general language model and a hybrid approach in which the language model identifies relevant evidence while executable checks handle compatible arithmetic and units. The CTCL task distinguishes supported claims, contradictions and cases where the supplied evidence is insufficient.</p>
+<p>Controlled test cases alter a denominator, outcome definition, treatment arm or time point. Their reference labels are manually checked; automatically changing a sentence does not by itself establish the correct label. Claims derived from the same trial, source passage or perturbation family stay in the same split.</p>
+<p>Evaluation includes error rates by reasoning type, evidence correctness, abstention coverage and the cost per verified claim. Any threshold for confidence or deferral is selected on development data. A final independent evaluation checks whether gains persist beyond the examples used to design the rules.</p>
+<h4>Main outcomes and further work</h4>
+<p>A reproducible claim-verification comparison and a small reviewed CTCL extension. Combined with topic 6, it can support one study of a traceable extraction-and-verification pipeline. A model's agreement with an arithmetic check is not evidence that different trials are clinically comparable.</p>
+<p><b>Required skills:</b> Python, basic NLP or machine learning, and comfort with numerical checks. Existing labelled data reduce initial annotation work; expert input is needed for the CTCL extension. Large-model training is not required.</p>
+</div>
+
+<div class="page">
+<h2>How the Topics Fit Together</h2>
+<p>Every dissertation has its own research question, implementation, analysis and individually assessed contribution. Shared infrastructure reduces repeated work, while common protocols allow compatible findings to be combined. The eight topics can support the following <b>five candidate studies</b>; the final publication structure follows the evidence and the size of each contribution.</p>
+<table>
+<tr><th>Candidate study</th><th>Contributing topics</th><th>Shared scientific result</th></tr>
+<tr><td>Image data and reliable recognition</td><td>1 + 2 + 3</td><td>A reviewed image manifest and a common comparison of feature-based, trained and vision-language approaches.</td></tr>
+<tr><td>Bilingual treatment information</td><td>4</td><td>An evidence-grounded question-answering benchmark with a controlled retrieval comparison.</td></tr>
+<tr><td>AI-assisted methodological appraisal</td><td>5</td><td>A focused evidence map, expert reference annotations and an empirical appraisal-assistance study.</td></tr>
+<tr><td>Treatment evidence extraction and verification</td><td>6 + 8</td><td>Traceable outcome extraction followed by independent numerical and textual claim verification.</td></tr>
+<tr><td>Faithful treatment-information simplification</td><td>7</td><td>A bilingual comparison of rewriting methods that preserve predefined facts.</td></tr>
+</table>
+<p>Topics 4 and 7 can be combined if a joint communication study is stronger than either result alone. Topic 3 normally forms the data contribution to the image study, rather than automatically generating a separate paper. The literature mapping in topic 5 supports its empirical AI evaluation and is not automatically a second review article.</p>
+<h2>Common Working Rules</h2>
+<p>Before model runs, students agree the primary question, closest previous work, data permissions, reference annotations, development and test splits, and primary evaluation. Annotation workload and access to expert reviewers are confirmed early. A small feasibility pilot precedes the main study. Scope is revised if sources, independent cases or reference quality are insufficient.</p>
+<p>Code, prompts, model identifiers, document versions and data manifests are versioned. Duplicate images, related questions and reports from the same trial are grouped to prevent leakage. Models do not supply their own ground truth. Analyses report uncertainty and relevant limitations, and use appropriate study-reporting guidance. Shared development data must not expose the final evaluation set to other students tuning a related method.</p>
+<p>Research outputs can include software, permissible annotations and documented evaluation workflows relevant to medical-information and evidence-generation research. These are research prototypes; a dissertation does not establish suitability for operational clinical or regulatory use. Students write individually, and publications acknowledge actual contributions. Joint publication and funding are possible outcomes, not promises.</p>
+</div>
+</body>
+</html>
