@@ -4,9 +4,9 @@
 <body>
 <h1>Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research</h1>
 <h2>Overview</h2>
-<p>These eight topics connect applied artificial intelligence with research on cutaneous lymphoma and its treatments. They cover clinical images, language models, published research and approved medicine information. Each combines a <b>theoretical component</b> with a <b>practical component</b>, and every dissertation can be completed using public data and documents without access to a hospital.</p>
+<p>These nine topics connect applied artificial intelligence with research on cutaneous lymphoma and its treatments. They cover clinical images, language models, published research and approved medicine information. Each combines a <b>theoretical component</b> with a <b>practical component</b>, and every dissertation can be completed using public data and documents without access to hospital records.</p>
 <p>The work is supervised from an AI and computing perspective, in collaboration with researchers from medicine who help define clinically meaningful questions and interpret the findings. Clinical judgements are reviewed by appropriate medical or pharmacy experts. Students do not work with identifiable patient records.</p>
-<p>Every topic includes a Python implementation, a reproducible experiment pipeline and a comparison between a baseline and a tested method. The topics start from public datasets and pretrained models. Some involve classifier training or limited fine tuning; others focus on retrieval, verification or evaluation algorithms. Training a large model from scratch is not required. Each topic is self-contained, with its data, computing resources, expert input and final scope agreed before the main work begins.</p>
+<p>Topics 1-8 include a Python implementation, reproducible experiments and a comparison between a baseline and a tested method. Some involve classifier training or limited fine tuning; others focus on retrieval, verification or evaluation algorithms. Topic 9 is a literature-based review of AI research and requires no programming or model training. Each topic is self-contained, with its sources, resources, expert input and final scope agreed before the main work begins.</p>
 <p>To choose a topic, consider whether you prefer working with images, analysing research papers or evaluating generated text. The descriptions below explain the research question, theoretical background, practical tasks, expected project outputs and required skills. Optional extensions can be discussed once the core project is complete.</p>
 <h2>Links and Resources</h2>
 <table>
@@ -21,7 +21,7 @@
 
 <div class="page">
 <h2>Thesis Topics</h2>
-<p>All eight topics include programming. Topics 1 and 8 include bounded neural-network fine tuning; topics 2 and 3 train lightweight classifiers. Topics 4-7 develop and evaluate software pipelines without requiring language-model training. GPU access and annotation workload are agreed during the initial feasibility check.</p>
+<p>Topics 1 and 8 include bounded neural-network fine tuning; topics 2 and 3 train lightweight classifiers. Topics 4-7 develop and evaluate software pipelines without requiring language-model training. Topic 9 focuses on reading, organising and critically comparing the research literature, without coding. Resources and workload are agreed during the initial feasibility check.</p>
 <div class="topic">
 <h3>1. Reliable Deep Learning for Recognising Mycosis Fungoides Among Its Inflammatory Mimics</h3>
 <p>This topic evaluates whether image models distinguish mycosis fungoides from selected inflammatory skin diseases when the image source changes. The student implements and compares frozen-feature classifiers with limited fine tuning of a pretrained encoder. The central question is whether adaptation improves independent-source reliability, and how its gains depend on the available training data.</p>
@@ -141,5 +141,19 @@
 <p><b>Required skills:</b> good Python, PyTorch or a transformer training library, NLP and numerical checks. A modest GPU or cloud budget supports compact-encoder fine tuning. No large model is pretrained from scratch.</p>
 </div>
 
+<div class="page topic">
+<h3>9. Artificial Intelligence in Cutaneous Lymphoma: A Structured Scoping Review</h3>
+<p>This is a literature-based dissertation for a student who prefers reading research, comparing methods and building a clear account of a field. It investigates what AI has been used for in cutaneous lymphoma, which data and methods have been studied, what the results establish and which questions remain unresolved. No programming, model training or new clinical dataset is required.</p>
+<h4>Theoretical component</h4>
+<p>The student studies the distinction between narrative, systematic and scoping reviews, and the principles of reproducible literature searching and evidence synthesis. The AI background covers classification, transfer learning, foundation models, validation, data leakage and performance metrics. The <a href="https://www.prisma-statement.org/scoping">PRISMA-ScR reporting checklist</a> guides the description of the review.</p>
+<h4>Practical component</h4>
+<p>The student first reads existing reviews and agrees a focused question with the supervisor. A short pilot checks the volume and accessibility of suitable studies and helps avoid duplicating an existing review. The scope may focus on a particular data modality, AI approach or evaluation issue where a clear question can be answered from the available literature.</p>
+<p>A written protocol defines the sources to search, search terms, dates and inclusion criteria. The student records the search, removes duplicate references, screens titles and abstracts, and reads the eligible full texts. A second reviewer checks selection and extraction as agreed in the protocol, with disagreements documented and resolved.</p>
+<p>For each study, the student records the task, data source and size, AI method, comparator, validation design, reported metrics and stated limitations. The synthesis compares findings, identifies contradictory results and distinguishes evidence demonstrated by the studies from claims that require further testing. Study quality and missing information are discussed using criteria appropriate to the question.</p>
+<p>Reference-management software, spreadsheets and word-processing tools are sufficient for the work. The student prepares a study-selection flow diagram, structured comparison tables and a critical narrative synthesis. The review reports its search and access limitations. A statistical meta-analysis, expert survey and software implementation are not required.</p>
+<h4>Main outcomes and further work</h4>
+<p>A documented search and selection process, an organised evidence table, a critical comparison of AI approaches and a reasoned account of the field's limitations and open questions. An optional extension examines one narrower methodological issue in more detail, if the available studies support it.</p>
+<p><b>Required skills:</b> good academic English, an understanding of basic AI concepts, careful reading, organised work and spreadsheet use. No Python, GPU or model-training experience is required.</p>
+</div>
 </body>
 </html>

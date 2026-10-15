@@ -90,7 +90,7 @@ def build(html_path=None, output_path=None, title=None, subject=None):
     result.set_metadata({
         "title": title or "Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research",
         "author": "Ioannis Tsioulis",
-        "subject": subject or "Eight public-data AI dissertation topics for 2026-27",
+        "subject": subject or "Nine public-data AI dissertation topics for 2026-27",
         "keywords": "artificial intelligence, deep learning, cutaneous lymphoma, public data, thesis proposals",
         "creator": "Ioannis Tsioulis",
     })
