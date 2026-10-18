@@ -35,7 +35,7 @@ BSc (Hons) Computer Science, Mediterranean College / University of Derby. Fine-t
 {: #proposals}
 
 **Sui Move Thesis Proposals**
-Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component.
+Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component and is offered to one student only. The research topic and the Security Error topic have been allocated; the Perfect, Syntax Error, Semantic Error and Style Error topics are still available.
 [PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
 
 **Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research**
