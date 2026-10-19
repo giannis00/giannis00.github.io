@@ -32,6 +32,7 @@ table { border-collapse: collapse; width: 100%; font-size: 10pt; line-height: 12
 td, th { border-bottom: 0.4pt solid #dddddd; padding: 3pt 4pt; text-align: left; vertical-align: top; }
 th { color: #1f3864; font-weight: bold; }
 .note { font-size: 10pt; line-height: 12.5pt; }
+.alloc { color: #ffffff; font-size: 8.5pt; font-weight: bold; }
 """
 
 
@@ -42,6 +43,7 @@ def build(html_path=None, output_path=None, title=None, subject=None):
     width, height = reference[0].rect.width, reference[0].rect.height
     directory = HERE / "fonts"
     regular = fitz.Font(fontfile=str(directory / "Carlito-Regular.ttf"))
+    bold = fitz.Font(fontfile=str(directory / "Carlito-Bold.ttf"))
     story = fitz.Story(
         html=html_path.read_text(encoding="utf-8"),
         user_css=CSS,
@@ -66,6 +68,20 @@ def build(html_path=None, output_path=None, title=None, subject=None):
             writer.append((x, 803.4), text, font=regular, fontsize=size)
             x += regular.text_length(text, fontsize=size)
         writer.write_text(page, color=(0.498, 0.498, 0.498))
+        # Story cannot paint inline backgrounds, so each "ALLOCATED" label (white text in the HTML)
+        # is replaced by a grey box with the same label on top.
+        labels = [span for block in page.get_text("dict")["blocks"] for line in block.get("lines", [])
+                  for span in line["spans"] if span["text"].strip() == "ALLOCATED" and span["color"] == 0xFFFFFF]
+        for span in labels:
+            page.add_redact_annot(fitz.Rect(span["bbox"]))
+        if labels:
+            page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE, graphics=fitz.PDF_REDACT_LINE_ART_NONE)
+        for span in labels:
+            box = fitz.Rect(span["bbox"]) + (-4, -1, 4, 1)
+            page.draw_rect(box, color=None, fill=(0.45, 0.45, 0.45), radius=0.25)
+            label = fitz.TextWriter(page.rect)
+            label.append(span["origin"], "ALLOCATED", font=bold, fontsize=span["size"])
+            label.write_text(page, color=(1, 1, 1))
 
     # Carlito's shaped tt/ti/tti glyphs have no Unicode cmap entries. Supply
     # mappings so copying/searching the PDF returns letters, not glyph IDs.
