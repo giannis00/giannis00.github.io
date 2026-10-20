@@ -38,6 +38,10 @@ BSc (Hons) Computer Science, Mediterranean College / University of Derby. Fine-t
 Topics offered this academic year, in collaboration with the Sui ecosystem. One research topic on evaluating the Move issue classifier beyond injected errors, and five data-collection topics that extend the Sui Move Issues dataset, one for each category: Perfect, Syntax Error, Semantic Error, Security Error and Style Error. Each topic has a theoretical and a practical component and is offered to one student only. The research topic and the Security Error topic have been allocated; the Perfect, Syntax Error, Semantic Error and Style Error topics are still available.
 [PDF](/assets/theses/sui-move-thesis-proposals-2026-27.pdf)
 
+**Scrubaroo Thesis Proposals**
+A second option in the Sui ecosystem. Two topics on Scrubaroo, a Web3 application developed within the School of Computing that combines deep learning with the Sui blockchain to reward citizens for cleaning polluted areas: a human-in-the-loop evaluation of its waste-density classifier and of AI-assisted reward decisions, and a security, cost and fraud-resistance evaluation of its reward system on Sui. Each topic has a theoretical and a practical component and is offered to one student only.
+[PDF](/assets/theses/scrubaroo-thesis-proposals-2026-27.pdf)
+
 **Thesis Proposals in Artificial Intelligence for Cutaneous Lymphoma Research**
 Nine BSc and MSc dissertation topics exploring AI for cutaneous lymphoma and treatment information, with input from medical researchers. Eight topics involve Python implementation and experiments in deep learning, vision-language models, retrieval and verification. One topic is a literature-based review of existing AI research and requires no programming. All topics use public datasets or accessible research literature, without requiring access to hospital records. The PDF explains each topic's aims, practical work, expected outputs and required skills. Each topic is offered to one student only. Topics 1 and 5 have been allocated; topics 2, 3, 4, 6, 7, 8 and 9 are still available.
 [PDF](/assets/theses/ai-cutaneous-lymphoma-thesis-proposals-2026-27.pdf)
