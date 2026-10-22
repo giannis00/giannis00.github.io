@@ -2,18 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Six open courses, all running in your browser.
+description: Seven open courses, all running in your browser.
 nav: true
 nav_order: 2
 ---
 
-Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other four assume you can already program.
+Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other five assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
 - [**From Words to Meaning: Natural Language Processing in Python**](#nlp): how machines read, search, translate and summarise text, from counting words to retrieval-augmented generation.
 - [**From Questions to Answers: Classic Datasets, Fully Explored**](#classic-datasets): complete exploratory analyses of the classic datasets of data science, already run and commented, from the first question to a baseline model.
 - [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
+- [**From Papers to Practice: Landmark Deep Learning Architectures**](#landmark-architectures): the networks that shaped deep learning, from the perceptron to the Transformer, each explained from its original paper, built in PyTorch and trained.
 - [**From Random Moves to Winning Agents: Reinforcement Learning with Games**](#reinforcement-learning): agents that learn by trial and error, from slot machines to Snake, a lunar lander and self-play, with videos of the agents you train.
 
 Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
@@ -261,6 +262,28 @@ The course does not repeat what the others cover. Working with tables in pandas 
 | 16 | Exploring the Data with Spark: an exploratory data analysis that brings back only answers | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/16_exploring_with_spark.ipynb" target="_blank">Open in Colab</a> |
 | 17 | Machine Learning with Spark MLlib: pipelines, honest evaluation, leakage and customer segments | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/17_spark_mllib.ipynb" target="_blank">Open in Colab</a> |
 | 18 | Measuring Scale: pandas, SQLite and Spark on growing data, and when one machine is enough | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-one-table-to-a-cluster/18_measuring_scale.ipynb" target="_blank">Open in Colab</a> |
+
+---
+
+## From Papers to Practice: Landmark Deep Learning Architectures
+{: #landmark-architectures}
+
+A course on the architectures that shaped deep learning. Each notebook starts from one or two landmark papers, linked in full, explains the problem they solved in plain words, builds the architecture in PyTorch, and trains it at a scale that fits a laptop or a free Colab session. Every claim of the paper is put to a small experiment: a perceptron that cannot learn XOR, a 32-layer network that is worse than an 8-layer one until shortcuts are added, an RNN that forgets after 50 steps, an encoder whose accuracy collapses with sentence length until attention is added.
+
+The notebooks are saved **already run**, with every result commented, so they can be read or presented without waiting. Each one opens with a box on **training time and limitations**: how long the training took, what was scaled down compared with the paper, and why the numbers differ. Very large models (AlexNet, VGG, ResNet-50) are not retrained; their official pretrained weights are loaded instead. New architectures are added one notebook at a time.
+
+The course assumes the foundations of neural networks and PyTorch, which are taught in [From Python to Deep Learning and Fine-Tuning](#deep-learning).
+
+---
+
+| # | Architecture and papers | |
+|---|----------|---|
+| 1 | The Perceptron and the MLP: Rosenblatt (1958), Minsky and Papert (1969), backpropagation (1986). XOR and hidden representations | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/01_perceptron_and_mlp.ipynb" target="_blank">Open in Colab</a> |
+| 2 | LeNet-5: LeCun et al. (1998). Convolutions, shared weights and pooling on handwritten digits, and robustness to shifts | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/02_lenet5.ipynb" target="_blank">Open in Colab</a> |
+| 3 | AlexNet and VGG: Krizhevsky et al. (2012), Simonyan and Zisserman (2014). ReLU, depth with 3 × 3 filters, pretrained ImageNet models | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/03_alexnet_and_vgg.ipynb" target="_blank">Open in Colab</a> |
+| 4 | ResNet: He et al. (2015). The degradation problem reproduced, and the residual shortcut that fixes it | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/04_resnet.ipynb" target="_blank">Open in Colab</a> |
+| 5 | LSTM: Hochreiter and Schmidhuber (1997). Vanishing gradients through time, measured on the adding problem | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/05_lstm.ipynb" target="_blank">Open in Colab</a> |
+| 6 | Sequence to Sequence and Attention: Sutskever et al., Cho et al., Bahdanau et al. (2014). The bottleneck and attention maps | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/06_seq2seq_attention.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
