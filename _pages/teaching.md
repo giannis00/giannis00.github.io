@@ -284,6 +284,9 @@ The course assumes the foundations of neural networks and PyTorch, which are tau
 | 4 | ResNet: He et al. (2015). The degradation problem reproduced, and the residual shortcut that fixes it | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/04_resnet.ipynb" target="_blank">Open in Colab</a> |
 | 5 | LSTM: Hochreiter and Schmidhuber (1997). Vanishing gradients through time, measured on the adding problem | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/05_lstm.ipynb" target="_blank">Open in Colab</a> |
 | 6 | Sequence to Sequence and Attention: Sutskever et al., Cho et al., Bahdanau et al. (2014). The bottleneck and attention maps | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/06_seq2seq_attention.ipynb" target="_blank">Open in Colab</a> |
+| 7 | The Transformer: Vaswani et al. (2017). Self-attention, multi-head attention and positional encoding written by hand | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/07_transformer.ipynb" target="_blank">Open in Colab</a> |
+| 8 | Autoencoders and VAEs: Hinton and Salakhutdinov (2006), Kingma and Welling (2013). Compression, latent spaces and new digits | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/08_autoencoder_vae.ipynb" target="_blank">Open in Colab</a> |
+| 9 | Generative Adversarial Networks: Goodfellow et al. (2014), DCGAN (2015). A forger against a detective, quality and variety | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/09_gan.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
