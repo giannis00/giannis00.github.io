@@ -2,16 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Five open courses, all running in your browser.
+description: Six open courses, all running in your browser.
 nav: true
 nav_order: 2
 ---
 
-Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other three assume you can already program.
+Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other four assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
 - [**From Words to Meaning: Natural Language Processing in Python**](#nlp): how machines read, search, translate and summarise text, from counting words to retrieval-augmented generation.
+- [**From Questions to Answers: Classic Datasets, Fully Explored**](#classic-datasets): complete exploratory analyses of the classic datasets of data science, already run and commented, from the first question to a baseline model.
 - [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
 - [**From Random Moves to Winning Agents: Reinforcement Learning with Games**](#reinforcement-learning): agents that learn by trial and error, from slot machines to Snake, a lunar lander and self-play, with videos of the agents you train.
 
@@ -180,6 +181,23 @@ The course does not repeat the foundations of machine learning and neural networ
 | 16 | Text from the Web: collecting text properly and responsibly | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/16_text_from_the_web.ipynb" target="_blank">Open in Colab</a> |
 | 17 | Summarisation: extractive and abstractive methods, the ROUGE score | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/17_summarisation.ipynb" target="_blank">Open in Colab</a> |
 | 18 | Semantic Search and Retrieval-Augmented Generation: finding by meaning, answering from sources | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-words-to-meaning/18_semantic_search_rag.ipynb" target="_blank">Open in Colab</a> |
+
+---
+
+## From Questions to Answers: Classic Datasets, Fully Explored
+{: #classic-datasets}
+
+A course of complete exploratory data analyses (EDA) of the classic datasets of data science. Each notebook starts from one question, loads the data straight from a public URL, and follows the same route: a first look, missing values, one variable at a time, pairs of variables and confounders, feature engineering, baseline models judged against common sense, and a written answer to the question. It assumes basic Python and a first contact with pandas.
+
+The notebooks are saved **already run**: every table and chart is visible on opening, and each result is followed by a comment that explains what it shows, so a notebook can be read or presented without waiting for any code. Running it again in Colab takes under a minute. New datasets are added one notebook at a time.
+
+The course does not re-teach pandas, plotting or machine learning, which are in [From Python to Deep Learning and Fine-Tuning](#deep-learning). It shows how those tools are used together to answer a question.
+
+---
+
+| # | Dataset and question | |
+|---|----------|---|
+| 1 | Titanic: who survived, and why? Missing values, two-way tables, a confounder, titles from names, baselines and overfitting | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/01_titanic.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
