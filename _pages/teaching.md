@@ -189,7 +189,7 @@ The course does not repeat the foundations of machine learning and neural networ
 
 A course of complete exploratory data analyses (EDA) of the classic datasets of data science. Each notebook starts from one question, loads the data straight from a public URL, and follows the same route: a first look, missing values, one variable at a time, pairs of variables and confounders, feature engineering, baseline models judged against common sense, and a written answer to the question. It assumes basic Python and a first contact with pandas.
 
-The notebooks are saved **already run**: every table and chart is visible on opening, and each result is followed by a comment that explains what it shows, so a notebook can be read or presented without waiting for any code. Running it again in Colab takes under a minute. New datasets are added one notebook at a time.
+The notebooks are saved **already run**: every table and chart is visible on opening, and each result is followed by a comment that explains what it shows, so a notebook can be read or presented without waiting for any code. Running it again in Colab takes about a minute. Every notebook ends with a *Going further* section for experienced students, with techniques used in the best public analyses of the same data: leak-free pipelines, fairness constraints, bootstrap intervals, lag features for time data and t-SNE maps.
 
 The course does not re-teach pandas, plotting or machine learning, which are in [From Python to Deep Learning and Fine-Tuning](#deep-learning). It shows how those tools are used together to answer a question.
 
@@ -198,6 +198,13 @@ The course does not re-teach pandas, plotting or machine learning, which are in 
 | # | Dataset and question | |
 |---|----------|---|
 | 1 | Titanic: who survived, and why? Missing values, two-way tables, a confounder, titles from names, baselines and overfitting | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/01_titanic.ipynb" target="_blank">Open in Colab</a> |
+| 2 | Palmer Penguins: which species is this? Pair plots, Simpson's paradox, scaling, k-means against the true labels | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/02_penguins.ipynb" target="_blank">Open in Colab</a> |
+| 3 | House Prices: what makes a house expensive? 80 columns, missing or "none", a log target, outliers, regression in dollars | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/03_house_prices.ipynb" target="_blank">Open in Colab</a> |
+| 4 | Adult Census Income: who earns more, and is the model fair? Disguised missing values, unbalanced classes, thresholds, fairness | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/04_adult_income.ipynb" target="_blank">Open in Colab</a> |
+| 5 | Heart Disease: can routine tests flag a sick heart? Codes as categories, selection bias, small data, the cost of a missed case | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/05_heart_disease.ipynb" target="_blank">Open in Colab</a> |
+| 6 | Wine Quality: can chemistry predict taste? Duplicates and leakage, human scores, predictions pulled to the middle | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/06_wine_quality.ipynb" target="_blank">Open in Colab</a> |
+| 7 | Bike Sharing: when do people ride? Daily and seasonal rhythms, gaps in time, honest time splits, seasonal baselines | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/07_bike_sharing.ipynb" target="_blank">Open in Colab</a> |
+| 8 | Fashion-MNIST: what does a computer see in a picture? Images as tables, average images, PCA, raw-pixel baselines | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-questions-to-answers/08_fashion_mnist.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
