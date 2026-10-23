@@ -287,6 +287,8 @@ The course assumes the foundations of neural networks and PyTorch, which are tau
 | 7 | The Transformer: Vaswani et al. (2017). Self-attention, multi-head attention and positional encoding written by hand | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/07_transformer.ipynb" target="_blank">Open in Colab</a> |
 | 8 | Autoencoders and VAEs: Hinton and Salakhutdinov (2006), Kingma and Welling (2013). Compression, latent spaces and new digits | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/08_autoencoder_vae.ipynb" target="_blank">Open in Colab</a> |
 | 9 | Generative Adversarial Networks: Goodfellow et al. (2014), DCGAN (2015). A forger against a detective, quality and variety | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/09_gan.ipynb" target="_blank">Open in Colab</a> |
+| 10 | U-Net: Ronneberger et al. (2015). Labelling every pixel, and what skip connections add at boundaries | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/10_unet.ipynb" target="_blank">Open in Colab</a> |
+| 11 | Vision Transformer: Dosovitskiy et al. (2020). Images as sequences of patches, and why data size decides against CNNs | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/11_vision_transformer.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
