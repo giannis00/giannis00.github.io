@@ -15,7 +15,7 @@ Each course stands on its own and builds every idea by hand before handing it to
 - [**From Questions to Answers: Classic Datasets, Fully Explored**](#classic-datasets): complete exploratory analyses of the classic datasets of data science, already run and commented, from the first question to a baseline model.
 - [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
 - [**From Papers to Practice: Landmark Deep Learning Architectures**](#landmark-architectures): the networks that shaped deep learning, from the perceptron to the Transformer, each explained from its original paper, built in PyTorch and trained.
-- [**From Defaults to Decisions: Hyperparameters, Explained by Experiment**](#hyperparameters): epochs, learning rate, batch size, neurons, layers, activations and optimisers, one at a time and by experiment, ending with automatic search in Optuna.
+- [**From Defaults to Decisions: Hyperparameters, Explained by Experiment**](#hyperparameters): epochs, learning rate, batch size, neurons, layers, activations and optimisers, one at a time and by experiment, ending with automatic search in Optuna and tuning without search.
 - [**From Random Moves to Winning Agents: Reinforcement Learning with Games**](#reinforcement-learning): agents that learn by trial and error, from slot machines to Snake, a lunar lander and self-play, with videos of the agents you train.
 
 Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
@@ -299,7 +299,7 @@ The course assumes the foundations of neural networks and PyTorch, which are tau
 
 A course on the choices made before training starts: how many epochs, what learning rate and batch size, how many neurons and layers, which activation function, optimiser and initialisation, how much regularisation. Every course on neural networks gives default values; this one asks where they come from and what happens with others. Each notebook changes **one hyperparameter at a time** on the same data (Fashion-MNIST) and the same small network, so that every difference can be traced to that one choice, and repeats runs with several seeds before believing a small difference.
 
-The notebooks are saved **already run**, with every result commented, including the results that did not match the textbook picture. Each one opens with a box on **training time and limitations**; most take five to fifteen minutes on an ordinary processor. The values found (the best learning rate, the best number of epochs) belong to this problem; the behaviour of each hyperparameter, and the method for finding good values, carry over. The last notebook hands the search to **Optuna**, which chooses layers, neurons, activation, learning rate and dropout automatically.
+The notebooks are saved **already run**, with every result commented, including the results that did not match the textbook picture. Each one opens with a box on **training time and limitations**; most take five to fifteen minutes on an ordinary processor. The values found (the best learning rate, the best number of epochs) belong to this problem; the behaviour of each hyperparameter, and the method for finding good values, carry over. Notebook 11 hands the search to **Optuna**, which chooses layers, neurons, activation, learning rate and dropout automatically, and Notebook 12 asks whether the search can be skipped altogether, with zero-shot AutoML and pretrained models.
 
 The course assumes a first neural network in PyTorch, as taught in [From Python to Deep Learning and Fine-Tuning](#deep-learning).
 
@@ -318,6 +318,7 @@ The course assumes a first neural network in PyTorch, as taught in [From Python 
 | 9 | Regularisation: dropout, weight decay and data augmentation against overfitting | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/09_regularisation.ipynb" target="_blank">Open in Colab</a> |
 | 10 | Batch normalisation and learning-rate schedules: step decay, cosine, warmup and one-cycle | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/10_batchnorm_and_schedules.ipynb" target="_blank">Open in Colab</a> |
 | 11 | Automatic search with Optuna: grid, random and Bayesian search, pruning, and which hyperparameters matter | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/11_optuna.ipynb" target="_blank">Open in Colab</a> |
+| 12 | Tuning without searching: zero-shot AutoML (FLAML) and a pretrained tabular model (TabPFN), compared with defaults and Optuna on accuracy and time | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/12_zero_shot_automl.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
