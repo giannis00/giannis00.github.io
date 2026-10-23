@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Seven open courses, all running in your browser.
+description: Eight open courses, all running in your browser.
 nav: true
 nav_order: 2
 ---
 
-Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other five assume you can already program.
+Each course stands on its own and builds every idea by hand before handing it to a library. The notebooks open in Google Colab with one click, so there is nothing to install. The first two courses start from a first line of Python. The other six assume you can already program.
 
 - [**From Python to Deep Learning and Fine-Tuning**](#deep-learning): for those heading towards machine learning and AI.
 - [**From Zero to Data Structures and Algorithms in Python**](#data-structures): a practice-first route through programming fundamentals, algorithms, and data structures.
@@ -15,6 +15,7 @@ Each course stands on its own and builds every idea by hand before handing it to
 - [**From Questions to Answers: Classic Datasets, Fully Explored**](#classic-datasets): complete exploratory analyses of the classic datasets of data science, already run and commented, from the first question to a baseline model.
 - [**From One Table to a Cluster: Working with Data at Scale**](#data-at-scale): SQL, data warehouses, NoSQL, Spark and streaming, and how to tell when you need them.
 - [**From Papers to Practice: Landmark Deep Learning Architectures**](#landmark-architectures): the networks that shaped deep learning, from the perceptron to the Transformer, each explained from its original paper, built in PyTorch and trained.
+- [**From Defaults to Decisions: Hyperparameters, Explained by Experiment**](#hyperparameters): epochs, learning rate, batch size, neurons, layers, activations and optimisers, one at a time and by experiment, ending with automatic search in Optuna.
 - [**From Random Moves to Winning Agents: Reinforcement Learning with Games**](#reinforcement-learning): agents that learn by trial and error, from slot machines to Snake, a lunar lander and self-play, with videos of the agents you train.
 
 Want to write your own code alongside the notebooks? <a href="https://colab.research.google.com/#create=true" target="_blank">Open a blank Colab notebook</a>.
@@ -290,6 +291,33 @@ The course assumes the foundations of neural networks and PyTorch, which are tau
 | 10 | U-Net: Ronneberger et al. (2015). Labelling every pixel, and what skip connections add at boundaries | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/10_unet.ipynb" target="_blank">Open in Colab</a> |
 | 11 | Vision Transformer: Dosovitskiy et al. (2020). Images as sequences of patches, and why data size decides against CNNs | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/11_vision_transformer.ipynb" target="_blank">Open in Colab</a> |
 | 12 | Diffusion Models: Sohl-Dickstein et al. (2015), Ho et al. (2020). Generating digits by removing noise step by step | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/12_diffusion.ipynb" target="_blank">Open in Colab</a> |
+
+---
+
+## From Defaults to Decisions: Hyperparameters, Explained by Experiment
+{: #hyperparameters}
+
+A course on the choices made before training starts: how many epochs, what learning rate and batch size, how many neurons and layers, which activation function, optimiser and initialisation, how much regularisation. Every course on neural networks gives default values; this one asks where they come from and what happens with others. Each notebook changes **one hyperparameter at a time** on the same data (Fashion-MNIST) and the same small network, so that every difference can be traced to that one choice, and repeats runs with several seeds before believing a small difference.
+
+The notebooks are saved **already run**, with every result commented, including the results that did not match the textbook picture. Each one opens with a box on **training time and limitations**; most take five to fifteen minutes on an ordinary processor. The values found (the best learning rate, the best number of epochs) belong to this problem; the behaviour of each hyperparameter, and the method for finding good values, carry over. The last notebook hands the search to **Optuna**, which chooses layers, neurons, activation, learning rate and dropout automatically.
+
+The course assumes a first neural network in PyTorch, as taught in [From Python to Deep Learning and Fine-Tuning](#deep-learning).
+
+---
+
+| # | Hyperparameter | |
+|---|----------|---|
+| 1 | What is a hyperparameter? Parameters and hyperparameters, training, validation and test sets, the optimism of choosing, and seed-to-seed noise | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/01_what_is_a_hyperparameter.ipynb" target="_blank">Open in Colab</a> |
+| 2 | Epochs and early stopping: learning curves, underfitting and overfitting, patience, and why loss and accuracy disagree | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/02_epochs_and_early_stopping.ipynb" target="_blank">Open in Colab</a> |
+| 3 | The learning rate: too small, too large, the learning-rate finder, and its interaction with everything else | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/03_learning_rate.ipynb" target="_blank">Open in Colab</a> |
+| 4 | Batch size: gradient noise, time per epoch, and the linear scaling rule | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/04_batch_size.ipynb" target="_blank">Open in Colab</a> |
+| 5 | Neurons and layers: width, depth, counting parameters, and when bigger stops helping | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/05_neurons_and_layers.ipynb" target="_blank">Open in Colab</a> |
+| 6 | Activation functions: sigmoid to GELU, saturation and dying ReLU, measured in deep networks | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/06_activation_functions.ipynb" target="_blank">Open in Colab</a> |
+| 7 | Optimisers: SGD, momentum, RMSprop, Adam and AdamW, each at its own best learning rate | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/07_optimisers.ipynb" target="_blank">Open in Colab</a> |
+| 8 | Weight initialisation: the signal through deep networks, symmetry, and Xavier and He initialisation | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/08_initialisation.ipynb" target="_blank">Open in Colab</a> |
+| 9 | Regularisation: dropout, weight decay and data augmentation against overfitting | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/09_regularisation.ipynb" target="_blank">Open in Colab</a> |
+| 10 | Batch normalisation and learning-rate schedules: step decay, cosine, warmup and one-cycle | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/10_batchnorm_and_schedules.ipynb" target="_blank">Open in Colab</a> |
+| 11 | Automatic search with Optuna: grid, random and Bayesian search, pruning, and which hyperparameters matter | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-defaults-to-decisions/11_optuna.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
