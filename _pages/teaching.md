@@ -270,7 +270,7 @@ The course does not repeat what the others cover. Working with tables in pandas 
 
 A course on the architectures that shaped deep learning. Each notebook starts from one or two landmark papers, linked in full, explains the problem they solved in plain words, builds the architecture in PyTorch, and trains it at a scale that fits a laptop or a free Colab session. Every claim of the paper is put to a small experiment: a perceptron that cannot learn XOR, a 32-layer network that is worse than an 8-layer one until shortcuts are added, an RNN that forgets after 50 steps, an encoder whose accuracy collapses with sentence length until attention is added.
 
-The notebooks are saved **already run**, with every result commented, so they can be read or presented without waiting. Each one opens with a box on **training time and limitations**: how long the training took, what was scaled down compared with the paper, and why the numbers differ. Very large models (AlexNet, VGG, ResNet-50) are not retrained; their official pretrained weights are loaded instead. New architectures are added one notebook at a time.
+The notebooks are saved **already run**, with every result commented, so they can be read or presented without waiting. Each one opens with a box on **training time and limitations**: how long the training took, what was scaled down compared with the paper, and why the numbers differ. Very large models (AlexNet, VGG, ResNet-50) are not retrained; their official pretrained weights are loaded instead. The twelve notebooks run in historical order, from 1958 to 2020, and each one builds on the previous ones.
 
 The course assumes the foundations of neural networks and PyTorch, which are taught in [From Python to Deep Learning and Fine-Tuning](#deep-learning).
 
@@ -289,6 +289,7 @@ The course assumes the foundations of neural networks and PyTorch, which are tau
 | 9 | Generative Adversarial Networks: Goodfellow et al. (2014), DCGAN (2015). A forger against a detective, quality and variety | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/09_gan.ipynb" target="_blank">Open in Colab</a> |
 | 10 | U-Net: Ronneberger et al. (2015). Labelling every pixel, and what skip connections add at boundaries | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/10_unet.ipynb" target="_blank">Open in Colab</a> |
 | 11 | Vision Transformer: Dosovitskiy et al. (2020). Images as sequences of patches, and why data size decides against CNNs | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/11_vision_transformer.ipynb" target="_blank">Open in Colab</a> |
+| 12 | Diffusion Models: Sohl-Dickstein et al. (2015), Ho et al. (2020). Generating digits by removing noise step by step | <a href="https://colab.research.google.com/github/giannis00/giannis00.github.io/blob/main/assets/jupyter/from-papers-to-practice/12_diffusion.ipynb" target="_blank">Open in Colab</a> |
 
 ---
 
