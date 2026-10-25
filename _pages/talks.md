@@ -14,9 +14,10 @@ nav_order: 6
 <div class="publication-entry" style="margin-bottom: 2rem;">
   <p>
     <a href="https://haicai2026.uniwa.gr/" target="_blank"><strong>International Conference on Human-AI Collaboration and Augmented Intelligence (HAICAI 2026)</strong></a><br>
-    Athens, Greece, April 2026<br>
+    University of West Attica, Athens, Greece, April 23–24, 2026<br>
     Oral presentation: <em>Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support.</em><br>
-    The paper has been accepted and will appear in the Proceedings of HAICAI 2026, Springer LNNS (in press).
+    The paper has been accepted and will appear in the Proceedings of HAICAI 2026, Springer LNNS (in press).<br>
+    <a href="https://haicai2026.uniwa.gr/wp-content/uploads/2026/04/HAICAI_2026_Program_v1.1.2.pdf" target="_blank">Conference programme</a> (Day 2, April 24, 2026)
   </p>
 </div>
 
@@ -24,7 +25,8 @@ nav_order: 6
   <p>
     <a href="https://congressworld.gr/event/52epis2026/" target="_blank"><strong>52nd Annual Panhellenic Medical Conference</strong></a><br>
     Athens, Greece, April 2–4, 2026<br>
-    Oral presentation: <em>Alzheimer's Disease Stage Classification from MRI Using CNNs and Estimation of Data Requirements.</em>
+    Oral presentation: <em>Alzheimer's Disease Stage Classification from MRI Using CNNs and Estimation of Data Requirements.</em><br>
+    <a href="https://www.mednet.gr/sites/default/files/52-EPIS-Abstracts-Book.pdf#page=80" target="_blank">Book of abstracts</a> (abstract 68, p. 80)
   </p>
 </div>
 
