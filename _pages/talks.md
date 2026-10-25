@@ -34,7 +34,8 @@ nav_order: 6
   <p>
     <a href="https://indico.physics.auth.gr/event/15/" target="_blank"><strong>20th Conference on Recent Developments in Gravity (NEB-20)</strong></a><br>
     Hellenic Society on Relativity, Gravitation and Cosmology (HSRGC), Eugenides Foundation, Athens, Greece, September 11–14, 2023<br>
-    Poster presentation: <em>Machine Learning and Neural Networks for Astronomy.</em>
+    Oral presentation (Parallel Session B): <em>Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks.</em><br>
+    <a href="https://indico.physics.auth.gr/event/15/contributions/368/" target="_blank">Contribution page</a> (speaker: Ioannis Tsioulis)
   </p>
 </div>
 
