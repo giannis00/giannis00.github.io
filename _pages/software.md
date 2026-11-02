@@ -10,7 +10,7 @@ sitemap: false
 
 <div class="row" style="align-items: flex-start; margin-top: 1rem;">
   <div class="col-sm-2" style="text-align: center; margin-bottom: 1rem;">
-    <img src="https://raw.githubusercontent.com/giannis00/PhasmaNet-SNR/main/assets/phasmanet_symbol.png" alt="PhasmaNet symbol" style="width: 100%; max-width: 110px;">
+    <img src="https://raw.githubusercontent.com/giannis00/PhasmaNet-SNR/main/assets/phasmanet_symbol.png" alt="PhasmaNet symbol" style="width: 100%; max-width: 110px; background: #ffffff; padding: 10px; border-radius: 6px;">
   </div>
   <div class="col-sm-10">
     <h2 style="margin-top: 0;">PhasmaNet</h2>
@@ -34,8 +34,8 @@ sitemap: false
       Ioannis Tsioulis, Anastasios Tefas, Nikolaos Stergioulas. MIT licence. Python 3.9 or later.
     </p>
     <p>
-      <a class="btn btn-sm z-depth-0" role="button" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
-      <a class="btn btn-sm z-depth-0" role="button" href="https://github.com/giannis00/PhasmaNet-SNR" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://github.com/giannis00/PhasmaNet-SNR" target="_blank" rel="noopener">GitHub</a>
     </p>
   </div>
 </div>
