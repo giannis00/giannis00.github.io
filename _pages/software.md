@@ -14,7 +14,7 @@ sitemap: false
   </div>
   <div class="col-sm-10">
     <h2 style="margin-top: 0;">PhasmaNet</h2>
-    <p><strong>A deep learning library for tabular data, built on PyTorch.</strong></p>
+    <p><strong>A deep learning library for tabular data.</strong></p>
     <p>
       PhasmaNet (from Greek <em>φάσμα</em>, spectrum) is a compact neural architecture for structured tabular data.
       Learned input tokens are refined by an ordered cascade of attention-based Φ-Stages, each followed by a
@@ -56,7 +56,7 @@ sitemap: false
     <h3 style="margin-top: 1.8rem;">Install</h3>
     <pre><code>pip install phasmanet</code></pre>
     <p style="font-size: 0.9rem;">
-      Ioannis Tsioulis, Anastasios Tefas, Nikolaos Stergioulas. MIT licence. Python 3.9 or later.
+      Ioannis Tsioulis, Anastasios Tefas, Nikolaos Stergioulas. MIT licence. Python 3.9 or later. The current release runs on PyTorch.
     </p>
     <p>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
