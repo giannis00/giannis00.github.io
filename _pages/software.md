@@ -58,8 +58,10 @@ nav_order: 4.5
       Ioannis Tsioulis, Anastasios Tefas, Nikolaos Stergioulas. MIT licence. Python 3.9 or later. The current release runs on PyTorch.
     </p>
     <p>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://giannis00.github.io/PhasmaNet-SNR/" target="_blank" rel="noopener">Docs</a>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://github.com/giannis00/PhasmaNet-SNR" target="_blank" rel="noopener">GitHub</a>
+      <span class="btn z-depth-0" role="button" aria-disabled="true" title="The arXiv link will be added as soon as the identifier is assigned" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px dashed var(--global-theme-color); border-radius: 4px; opacity: 0.6; cursor: default;">Paper (arXiv, soon)</span>
     </p>
   </div>
 </div>
