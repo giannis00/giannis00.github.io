@@ -3,9 +3,8 @@ layout: page
 permalink: /software/
 title: software
 description: Open-source software from my research.
-nav: false
-nav_order: 7
-sitemap: false
+nav: true
+nav_order: 4.5
 ---
 
 <div class="row" style="align-items: flex-start; margin-top: 1rem;">
