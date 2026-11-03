@@ -9,7 +9,7 @@ nav_order: 4.5
 
 <div class="row" style="align-items: flex-start; margin-top: 1rem;">
   <div class="col-sm-2" style="text-align: center; margin-bottom: 1rem;">
-    <img src="https://raw.githubusercontent.com/giannis00/PhasmaNet-SNR/main/assets/phasmanet_symbol.png" alt="PhasmaNet symbol" style="width: 100%; max-width: 110px; background: #ffffff; padding: 10px; border-radius: 6px;">
+    <img src="https://raw.githubusercontent.com/giannis00/phasmanet/main/assets/phasmanet_symbol.png" alt="PhasmaNet symbol" style="width: 100%; max-width: 110px; background: #ffffff; padding: 10px; border-radius: 6px;">
   </div>
   <div class="col-sm-10">
     <h2 style="margin-top: 0;">PhasmaNet</h2>
@@ -58,9 +58,9 @@ nav_order: 4.5
       Ioannis Tsioulis, Anastasios Tefas, Nikolaos Stergioulas. MIT licence. Python 3.9 or later. The current release runs on PyTorch.
     </p>
     <p>
-      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://giannis00.github.io/PhasmaNet-SNR/" target="_blank" rel="noopener">Docs</a>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://giannis00.github.io/phasmanet/" target="_blank" rel="noopener">Docs</a>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
-      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://github.com/giannis00/PhasmaNet-SNR" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://github.com/giannis00/phasmanet" target="_blank" rel="noopener">GitHub</a>
       <span class="btn z-depth-0" role="button" aria-disabled="true" title="The arXiv link will be added as soon as the identifier is assigned" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px dashed var(--global-theme-color); border-radius: 4px; opacity: 0.6; cursor: default;">Paper (arXiv, soon)</span>
     </p>
   </div>
