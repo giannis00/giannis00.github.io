@@ -52,6 +52,9 @@ cv:
         details: Applied Deep Learning; Medical AI & Computer-Aided Diagnosis; Deep Learning in Physics & Astronomy; AI & Blockchain Applications
 
     Publications:
+      - title: "ΦasmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction"
+        publisher: "Tsioulis, I., Tefas, A., Stergioulas, N. arXiv preprint <a href='https://arxiv.org/abs/2611.05309' target='_blank'>arXiv:2611.05309</a>"
+        date: 2026
       - title: "Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support"
         publisher: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. — HAICAI 2026, Springer LNNS (accepted, in press)"
         date: 2026
@@ -64,6 +67,11 @@ cv:
 
     Datasets:
       - bullet: "Tsioulis, I., Chaikalis, T., Anastasopoulos, K., Chanoutsos, V. E., Chrysomallis, N., Gubochkin, D. V., Margetis, A., Patrakis, V., Trousas, N., Tsipis, G., Zerkidis, D. (2026). Sui Move Issues: A Labeled Dataset for Smart Contract Error Classification (v1). Zenodo. <a href='https://doi.org/10.5281/zenodo.19682589' target='_blank'>doi.org/10.5281/zenodo.19682589</a>. Supervised by I. Tsioulis; produced with BSc/MSc students at Mediterranean College in collaboration with SuiHub Athens."
+
+    Software:
+      - name: "PhasmaNet: a deep learning library for tabular data"
+        url: https://giannis00.github.io/software/
+        summary: "Open-source Python package of the ΦasmaNet architecture (pip install phasmanet), with A. Tefas and N. Stergioulas. <a href='https://pypi.org/project/phasmanet/' target='_blank'>PyPI</a>, <a href='https://github.com/giannis00/phasmanet' target='_blank'>GitHub</a>, <a href='https://giannis00.github.io/phasmanet/' target='_blank'>Docs</a>, <a href='https://arxiv.org/abs/2611.05309' target='_blank'>Paper</a>"
 
     Projects:
       - name: "NiceMove: AI-Powered Move Smart-Contract Linter"
