@@ -61,7 +61,18 @@ nav_order: 4.5
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://giannis00.github.io/phasmanet/" target="_blank" rel="noopener">Docs</a>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://pypi.org/project/phasmanet/" target="_blank" rel="noopener">PyPI</a>
       <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://github.com/giannis00/phasmanet" target="_blank" rel="noopener">GitHub</a>
-      <span class="btn z-depth-0" role="button" aria-disabled="true" title="The arXiv link will be added as soon as the identifier is assigned" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px dashed var(--global-theme-color); border-radius: 4px; opacity: 0.6; cursor: default;">Paper (arXiv, soon)</span>
+      <a class="btn z-depth-0" role="button" style="font-size: 0.95rem; padding: 0.35rem 1rem; margin-right: 0.5rem; border: 1px solid var(--global-theme-color); border-radius: 4px;" href="https://arxiv.org/abs/2611.05309" target="_blank" rel="noopener">Paper (arXiv)</a>
     </p>
+    <h3 style="margin-top: 1.8rem;">Citation</h3>
+    <p style="font-size: 0.9rem;">If you use PhasmaNet, please cite the paper:</p>
+    {% raw %}<pre><code>@misc{tsioulis2026phasmanet,
+  title         = {{$\Phi$asmaNet}: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction},
+  author        = {Tsioulis, Ioannis and Tefas, Anastasios and Stergioulas, Nikolaos},
+  year          = {2026},
+  eprint        = {2611.05309},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2611.05309}
+}</code></pre>{% endraw %}
   </div>
 </div>
