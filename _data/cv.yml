@@ -51,22 +51,22 @@ cv:
       - label: Areas
         details: Applied Deep Learning; Medical AI & Computer-Aided Diagnosis; Deep Learning in Physics & Astronomy; AI & Blockchain Applications
 
-    Publications:
+    "Publications (* supervised student, † supervising author)":
       - title: "ΦasmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction"
         publisher: "Tsioulis, I., Tefas, A., Stergioulas, N. arXiv preprint <a href='https://arxiv.org/abs/2611.05309' target='_blank'>arXiv:2611.05309</a>"
         date: 2026
       - title: "Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support"
-        publisher: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. — HAICAI 2026, Springer LNNS (accepted, in press)"
+        publisher: "Hryb, A.*, Tsioulis, I.†, Papadaki, M., Tsoutsi, N.-M., Nassi, M. — HAICAI 2026, Springer LNNS (accepted, in press)"
         date: 2026
 
     Conference Presentations & Talks:
-      - bullet: "Hryb, A., Tsioulis, I., Papadaki, M., Tsoutsi, N.-M., Nassi, M. (2026). Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support. Oral presentation, HAICAI 2026, University of West Attica, Athens. <a href='https://haicai2026.uniwa.gr/wp-content/uploads/2026/04/HAICAI_2026_Program_v1.1.2.pdf' target='_blank'>Conference programme</a>"
-      - bullet: "Tsioulis, I., Hryb, A., Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens. <a href='https://www.mednet.gr/sites/default/files/52-EPIS-Abstracts-Book.pdf#page=80' target='_blank'>Book of abstracts, p. 80</a>"
+      - bullet: "Hryb, A.*, Tsioulis, I.†, Papadaki, M., Tsoutsi, N.-M., Nassi, M. (2026). Human-AI Collaborative Frameworks for Alzheimer's Staging: Evaluating Data Requirements for Augmented Clinical Decision Support. Oral presentation, HAICAI 2026, University of West Attica, Athens. <a href='https://haicai2026.uniwa.gr/wp-content/uploads/2026/04/HAICAI_2026_Program_v1.1.2.pdf' target='_blank'>Conference programme</a>"
+      - bullet: "Tsioulis, I.†, Hryb, A.*, Papadaki, M. (2026). Ταξινόμηση Σταδίων Νόσου Alzheimer από MRI με CNN και Εκτίμηση Απαιτήσεων Δεδομένων. Oral presentation, 52ο Ετήσιο Πανελλήνιο Ιατρικό Συνέδριο, Athens. <a href='https://www.mednet.gr/sites/default/files/52-EPIS-Abstracts-Book.pdf#page=80' target='_blank'>Book of abstracts, p. 80</a>"
       - bullet: "Tsioulis, I. (2023). Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks. Oral presentation, 20th Conference on Recent Developments in Gravity (NEB-20, HSRGC), Eugenides Foundation, Athens. <a href='https://indico.physics.auth.gr/event/15/contributions/368/' target='_blank'>Contribution page</a>"
       - bullet: "Tsioulis, I. (2025). AI in Pharmacovigilance: the Intersection of AI and Drug Safety. Guest lecture, School of Medicine, NKUA."
 
     Datasets:
-      - bullet: "Tsioulis, I., Chaikalis, T., Anastasopoulos, K., Chanoutsos, V. E., Chrysomallis, N., Gubochkin, D. V., Margetis, A., Patrakis, V., Trousas, N., Tsipis, G., Zerkidis, D. (2026). Sui Move Issues: A Labeled Dataset for Smart Contract Error Classification (v1). Zenodo. <a href='https://doi.org/10.5281/zenodo.19682589' target='_blank'>doi.org/10.5281/zenodo.19682589</a>. Supervised by I. Tsioulis; produced with BSc/MSc students at Mediterranean College in collaboration with SuiHub Athens."
+      - bullet: "Tsioulis, I.†, Chaikalis, T., Anastasopoulos, K.*, Chanoutsos, V. E.*, Chrysomallis, N.*, Gubochkin, D. V.*, Margetis, A.*, Patrakis, V.*, Trousas, N.*, Tsipis, G.*, Zerkidis, D.* (2026). Sui Move Issues: A Labeled Dataset for Smart Contract Error Classification (v1). Zenodo. <a href='https://doi.org/10.5281/zenodo.19682589' target='_blank'>doi.org/10.5281/zenodo.19682589</a>. Supervised by I. Tsioulis; produced with BSc/MSc students at Mediterranean College in collaboration with SuiHub Athens."
 
     Software:
       - name: "PhasmaNet: a deep learning library for tabular data"
