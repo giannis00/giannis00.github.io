@@ -30,7 +30,7 @@ cv:
         end_date: 2023
         highlights:
           - "Awarded a merit-based scholarship."
-          - "Thesis: Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (2023). <a href='https://dione.lib.unipi.gr/xmlui/handle/unipi/15239' target='_blank'>dione.lib.unipi.gr</a>"
+          - "Thesis: Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (2023). <a href='https://doi.org/10.26267/unipi_dione/2661' target='_blank'>doi:10.26267/unipi_dione/2661</a>"
       - institution: National and Kapodistrian University of Athens (NKUA)
         location: Athens, Greece
         area: Mathematics
