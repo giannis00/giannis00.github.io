@@ -94,12 +94,12 @@ cv:
       - title: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
 
     Skills:
-      - name: Languages
-        keywords: [Python, SQL, C]
-      - name: ML / DL
-        keywords: [PyTorch, deep learning, CNNs, transformers, continual learning]
-      - name: Domains
-        keywords: [Applied Deep Learning]
+      - name: Deep learning
+        keywords: ["PyTorch", "new architectures (ΦasmaNet, on PyPI)", "CNNs", "transformers", "vision-language models", "fine-tuning", "continual learning"]
+      - name: Machine learning
+        keywords: ["scikit-learn", "Optuna and AutoML", "reinforcement learning", "NLP", "model evaluation and calibration"]
+      - name: Programming and data
+        keywords: ["Python", "C", "SQL", "pandas", "Apache Spark", "parallel programming (OpenMP, MPI)"]
 
     Military Service:
       - label: Hellenic Army (2017)
