@@ -83,6 +83,8 @@ cv:
           - "Model and extension finalised in an MSc thesis (V. Bakalis): ~99% preliminary accuracy, above general-purpose LLMs."
 
     Selected Supervision:
+      - label: Overall
+        details: "Over 30 BSc and MSc theses supervised since 2024-25."
       - label: MSc — Vasileios Bakalis (2026)
         details: "<em>LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.</em> MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove. <a href='https://giannis00.github.io/assets/theses/bakalis-2026-msc-move-llm.pdf' target='_blank'>PDF</a>"
       - label: BSc — Vasileios Eirinaios Chanoutsos (2026)

@@ -98,7 +98,7 @@ cv:
           - "Open dataset of 3,321 labelled Sui Move snippets, with 10 student co-authors. [Zenodo](https://doi.org/10.5281/zenodo.19682589)"
           - "Model and extension finalised in an MSc thesis (V. Bakalis): ~99% preliminary accuracy, above general-purpose LLMs."
 
-    Selected Supervision:
+    "Selected Supervision (over 30 BSc and MSc theses supervised since 2024-25)":
       - label: MSc — Vasileios Bakalis (2026)
         details: "*LLM-Based Classification of Move Smart-Contract Issues in the Sui Ecosystem: Dataset Consolidation and Baseline Model Comparison.* MSc in Big Data Analytics, Mediterranean College / University of Derby. Built the curated dataset of ~3,300 labelled Sui Move snippets underpinning NiceMove. [PDF](https://giannis00.github.io/assets/theses/bakalis-2026-msc-move-llm.pdf)"
       - label: BSc — Vasileios Eirinaios Chanoutsos (2026)
