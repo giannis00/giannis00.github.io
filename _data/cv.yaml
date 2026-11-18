@@ -34,7 +34,7 @@ cv:
         degree: MSc
         end_date: 2023
         highlights:
-          - "Awarded a merit-based scholarship."
+          - "Tuition-free study (income-based) and academic excellence award."
           - "Thesis: Rapid calculation of the signal-to-noise ratio of gravitational-wave sources using artificial neural networks (2023). [dione.lib.unipi.gr](https://dione.lib.unipi.gr/items/d19da3ce-a941-476d-b8c9-3ea168a1e155)"
       - institution: National and Kapodistrian University of Athens (NKUA)
         location: Athens, Greece
@@ -107,7 +107,7 @@ cv:
         details: "*AI-Based Code Style Enforcement with Code Llama.* BSc (Hons) Computer Science, Mediterranean College / University of Derby. [PDF](https://giannis00.github.io/assets/theses/zerkidis-2026-bsc-code-llama.pdf)"
 
     Awards:
-      - bullet: "Merit-based Scholarship, MSc in Cybersecurity and Data Science, University of Piraeus."
+      - bullet: "Tuition fee waiver and academic excellence award, MSc, University of Piraeus."
 
     Skills:
       - label: Deep learning
